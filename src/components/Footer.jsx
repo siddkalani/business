@@ -11,75 +11,34 @@ const Footer = () => {
                     <div className="wrapper">
                         <ul className="city-list">
                             <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/boston/">
-                                    Boston{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/charlotte/">
-                                    Charlotte{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/chicago/">
-                                    Chicago{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/cincinnati/">
-                                    Cincinnati{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/cleveland/">
-                                    Cleveland{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/columbus/">
-                                    Columbus{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/detroit/">
-                                    Detroit{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/india/">
+                                <a href="#/locations/boston/">
                                     India{' '}
                                 </a>
                             </li>
+                          
+                            
+                            
                             <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/indianapolis/">
-                                    Indianapolis{' '}
+                                <a href="#/locations/cleveland/">
+                                    China{' '}
                                 </a>
                             </li>
                             <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/louisville/">
-                                    Louisville{' '}
+                                <a href="#/locations/columbus/">
+                                    Nepal{' '}
                                 </a>
                             </li>
                             <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/miami/">
-                                    Miami{' '}
+                                <a href="#/locations/detroit/">
+                                    Spain{' '}
                                 </a>
                             </li>
                             <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/pittsburgh/">
-                                    Pittsburgh{' '}
+                                <a href="#/locations/india/">
+                                    Russia{' '}
                                 </a>
                             </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/seattle/">
-                                    Seattle{' '}
-                                </a>
-                            </li>
-                            <li className="city-list__single">
-                                <a href="https://centricconsulting.com/locations/st-louis/">
-                                    St. Louis{' '}
-                                </a>
-                            </li>
+                           
                         </ul>
                     </div>
                 </section>
@@ -90,11 +49,11 @@ const Footer = () => {
                     <div className="wrapper">
                         <div className="row">
                             <div className="logo">
-                                <img
+                                {/* <img
                                     alt="Centric Consulting logo in white"
                                     loading="lazy"
-                                    src="https://centricconsulting.com/wp-content/themes/orbit-media/images/logo-white.svg"
-                                />
+                                    src="#/wp-content/themes/orbit-media/images/logo-white.svg"
+                                /> */}
                                 <div className="row">
                                     <div className="text">
                                         Join 20,000 other people and get the latest updates on business, technology and digital                                to help improve your business.{' '}
@@ -102,7 +61,7 @@ const Footer = () => {
                                     <div className="button-wrap">
                                         <a
                                             className="button"
-                                            href="https://centricconsulting.com/sign-up-for-newsletter/"
+                                            href="#/sign-up-for-newsletter/"
                                         >
                                             Subscribe{' '}
                                         </a>
@@ -130,7 +89,7 @@ const Footer = () => {
                                                     <a
                                                         aria-current="page"
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/business-consulting/"
+                                                        href="#/business-consulting/"
                                                     >
                                                         Business Consulting
                                                     </a>
@@ -141,7 +100,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/technology-solutions/"
+                                                        href="#/technology-solutions/"
                                                     >
                                                         Technology Solutions Consulting &                                                Services
                                                     </a>
@@ -152,7 +111,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/digital-transformation-consulting/"
+                                                        href="#/digital-transformation-consulting/"
                                                     >
                                                         Digital Consulting
                                                     </a>
@@ -163,7 +122,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/industries/"
+                                                        href="#/industries/"
                                                     >
                                                         Industries
                                                     </a>
@@ -189,7 +148,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/blog/"
+                                                        href="#/blog/"
                                                     >
                                                         Insights
                                                     </a>
@@ -200,7 +159,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/client-stories/"
+                                                        href="#/client-stories/"
                                                     >
                                                         Client Stories
                                                     </a>
@@ -226,7 +185,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/about-us/careers/"
+                                                        href="#/about-us/careers/"
                                                     >
                                                         Careers
                                                     </a>
@@ -237,7 +196,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/news-and-events/"
+                                                        href="#/news-and-events/"
                                                     >
                                                         News & Events
                                                     </a>
@@ -248,7 +207,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/locations/"
+                                                        href="#/locations/"
                                                     >
                                                         Locations
                                                     </a>
@@ -259,7 +218,7 @@ const Footer = () => {
                                                 >
                                                     <a
                                                         data-ps2id-api="true"
-                                                        href="https://centricconsulting.com/contact/"
+                                                        href="#/contact/"
                                                     >
                                                         Contact Us
                                                     </a>
@@ -274,8 +233,8 @@ const Footer = () => {
                                         <ul>
                                             <li>
                                                 <a
-                                                    href="https://www.facebook.com/CentricConsultingNational"
-                                                    target="_blank"
+                                                    href="#"
+                                                    // target="_blank"
                                                 >
                                                     <span
                                                         aria-hidden="true"
@@ -293,8 +252,8 @@ const Footer = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="https://twitter.com/centric"
-                                                    target="_blank"
+                                                    href="#"
+                                                    // target="_blank"
                                                 >
                                                     <span className="x-icon">
                                                         <svg
@@ -318,8 +277,8 @@ const Footer = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="https://www.linkedin.com/company/centric-consulting/"
-                                                    target="_blank"
+                                                    href="#"
+                                                    // target="_blank"
                                                 >
                                                     <span
                                                         aria-hidden="true"
@@ -337,8 +296,8 @@ const Footer = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="https://www.instagram.com/centricconsulting/"
-                                                    target="_blank"
+                                                    href="#"
+                                                    // target="_blank"
                                                 >
                                                     <span
                                                         aria-hidden="true"
@@ -354,25 +313,7 @@ const Footer = () => {
                                                     </span>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a
-                                                    href="https://www.youtube.com/channel/UCFmtoIKH1ijwpGpiJBxl4dw"
-                                                    target="_blank"
-                                                >
-                                                    <span
-                                                        aria-hidden="true"
-                                                        className="icon"
-                                                    >
-                                                        <i
-                                                            aria-hidden="true"
-                                                            className="fa fa-classic fa-brands fa-youtube-square"
-                                                        />
-                                                    </span>
-                                                    <span className="name">
-                                                        YouTube
-                                                    </span>
-                                                </a>
-                                            </li>
+                                           
                                         </ul>
                                     </div>
                                 </div>
@@ -390,7 +331,7 @@ const Footer = () => {
                     <div className="wrapper">
                         <div className="copyright">
                             <p>
-                                © 2024 Centric Consulting
+                                © 2024 A&K
                             </p>
                         </div>
                         <div className="copyright-menu-wrap">
@@ -408,7 +349,7 @@ const Footer = () => {
                                     >
                                         <a
                                             data-ps2id-api="true"
-                                            href="https://centricconsulting.com/privacy-policy/"
+                                            href="#/privacy-policy/"
                                         >
                                             Privacy                                    Policy
                                         </a>
@@ -419,7 +360,7 @@ const Footer = () => {
                                     >
                                         <a
                                             data-ps2id-api="true"
-                                            href="https://centricconsulting.com/terms-of-use/"
+                                            href="#/terms-of-use/"
                                         >
                                             Terms of                                    Use
                                         </a>
@@ -430,7 +371,7 @@ const Footer = () => {
                                     >
                                         <a
                                             data-ps2id-api="true"
-                                            href="https://centricconsulting.com/site-feedback/"
+                                            href="#/site-feedback/"
                                         >
                                             Site                                    Feedback
                                         </a>

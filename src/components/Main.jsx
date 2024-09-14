@@ -11,8 +11,8 @@ const Main = () => {
             decoding="async"
             height="415"
             sizes="(max-width: 1680px) 100vw, 1680px"
-            src="https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header.jpg"
-            srcSet="https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header.jpg 1680w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-300x74.jpg 300w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-1024x253.jpg 1024w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-768x190.jpg 768w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-1536x379.jpg 1536w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-600x148.jpg 600w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-992x245.jpg 992w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-1200x296.jpg 1200w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-850x210.jpg 850w, https://centricconsulting.com/wp-content/uploads/2024/04/Centric-Consulting-AWS-Fargate-Header-750x185.jpg 750w"
+            src="hero.jpg"
+            srcSet="hero.jpg 750w"
             width="1680"
           />
           <div className="page-title">
@@ -31,7 +31,7 @@ const Main = () => {
               </p>
               <a
                 className="button"
-                href="https://centricconsulting.com/contact/"
+                href="#contact/"
                 target=""
               >
                 TALK TO AN EXPERT
@@ -46,7 +46,7 @@ const Main = () => {
                 <div className="post-meta-detail__backlink">
                   <span>
                     <span>
-                      <a href="https://centricconsulting.com/">
+                      <a href="#">
                         Home
                       </a>
                     </span>
@@ -137,7 +137,7 @@ const Main = () => {
                   </p>
                 </div>
               </div>
-              <aside id="sidebar">
+              {/* <aside id="sidebar">
                 <div className="lead-wrapper">
                   <div className="leads">
                     <div className="leads__row">
@@ -150,15 +150,15 @@ const Main = () => {
                             height="150"
                             loading="lazy"
                             sizes="(max-width: 150px) 100vw, 150px"
-                            src="https://centricconsulting.com/wp-content/uploads/2021/07/Cheryl-Strait-150x150.jpg"
-                            srcSet="https://centricconsulting.com/wp-content/uploads/2021/07/Cheryl-Strait-150x150.jpg 150w, https://centricconsulting.com/wp-content/uploads/2021/07/Cheryl-Strait-835x835.jpg 835w, https://centricconsulting.com/wp-content/uploads/2021/07/Cheryl-Strait-415x415.jpg 415w, https://centricconsulting.com/wp-content/uploads/2021/07/Cheryl-Strait-350x350.jpg 350w"
+                            src="#wp-content/uploads/2021/07/Cheryl-Strait-150x150.jpg"
+                            srcSet="#wp-content/uploads/2021/07/Cheryl-Strait-150x150.jpg 150w, #wp-content/uploads/2021/07/Cheryl-Strait-835x835.jpg 835w, #wp-content/uploads/2021/07/Cheryl-Strait-415x415.jpg 415w, #wp-content/uploads/2021/07/Cheryl-Strait-350x350.jpg 350w"
                             width="150"
                           />
                         </div>
                       </div>
                       <div className="lead-details">
                         <div className="lead-title">
-                          <a href="https://centricconsulting.com/team/cheryl-strait/">
+                          <a href="#team/cheryl-strait/">
                             Cheryl                                                Strait
                           </a>
                         </div>
@@ -176,7 +176,7 @@ const Main = () => {
                   <div className="lead__content">
                   </div>
                 </div>
-              </aside>
+              </aside> */}
             </div>
           </div>
         </div>
@@ -208,7 +208,7 @@ const Main = () => {
                 >
                   <a
                     className="button-text"
-                    href="https://centricconsulting.com/contact/"
+                    href="#contact/"
                   >
                     Contact us for help with your business                                challenges
                   </a>
@@ -495,7 +495,7 @@ const Main = () => {
                   </div>
                   <a
                     className="button button--bordered"
-                    href="https://centricconsulting.com/business-consulting/strategy-alignment-and-architecture/"
+                    href="#business-consulting/strategy-alignment-and-architecture/"
                     target="_self"
                   >
                     LEARN MORE{' '}
@@ -519,7 +519,7 @@ const Main = () => {
                   </div>
                   <a
                     className="button button--bordered"
-                    href="https://centricconsulting.com/business-consulting/enterprise-portfolio-and-program-management-consulting/"
+                    href="#business-consulting/enterprise-portfolio-and-program-management-consulting/"
                     target="_self"
                   >
                     LEARN MORE{' '}
@@ -540,7 +540,7 @@ const Main = () => {
                   </div>
                   <a
                     className="button button--bordered"
-                    href="https://centricconsulting.com/business-consulting/experience-design/"
+                    href="#business-consulting/experience-design/"
                     target="_self"
                   >
                     LEARN MORE{' '}
@@ -564,7 +564,7 @@ const Main = () => {
                   </div>
                   <a
                     className="button button--bordered"
-                    href="https://centricconsulting.com/business-consulting/human-capital-management-workforce-management/"
+                    href="#business-consulting/human-capital-management-workforce-management/"
                     target="_self"
                   >
                     LEARN MORE{' '}
@@ -588,7 +588,7 @@ const Main = () => {
                   </div>
                   <a
                     className="button button--bordered"
-                    href="https://centricconsulting.com/business-consulting/operational-excellence-consulting/"
+                    href="#business-consulting/operational-excellence-consulting/"
                     target="_self"
                   >
                     LEARN MORE{' '}
@@ -609,7 +609,7 @@ const Main = () => {
                   </div>
                   <a
                     className="button button--bordered"
-                    href="https://centricconsulting.com/business-consulting/people-and-change-consulting/"
+                    href="#business-consulting/people-and-change-consulting/"
                     target="_self"
                   >
                     LEARN MORE{' '}
@@ -633,7 +633,7 @@ const Main = () => {
               <div className="buttons">
                 <a
                   className="button"
-                  href="https://centricconsulting.com/contact/"
+                  href="#contact/"
                 >
                   TALK TO AN EXPERT{' '}
                 </a>
@@ -641,7 +641,7 @@ const Main = () => {
             </div>
           </div>
         </section>
-        <section
+        {/* <section
           className="pageblock pageblock--image-text right "
           id="pageblock_28649"
         >
@@ -651,8 +651,8 @@ const Main = () => {
             height="415"
             loading="lazy"
             sizes="(max-width: 1680px) 100vw, 1680px"
-            src="https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-1680x415.jpg"
-            srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header.jpg 1680w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-300x74.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-768x190.jpg 768w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-1024x253.jpg 1024w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-600x148.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-992x245.jpg 992w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-1200x296.jpg 1200w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-850x210.jpg 850w, https://centricconsulting.com/wp-content/uploads/2018/07/Business-Architecture-header-750x185.jpg 750w"
+            src="#wp-content/uploads/2018/07/Business-Architecture-header-1680x415.jpg"
+            srcSet="#wp-content/uploads/2018/07/Business-Architecture-header.jpg 1680w, #wp-content/uploads/2018/07/Business-Architecture-header-300x74.jpg 300w, #wp-content/uploads/2018/07/Business-Architecture-header-768x190.jpg 768w, #wp-content/uploads/2018/07/Business-Architecture-header-1024x253.jpg 1024w, #wp-content/uploads/2018/07/Business-Architecture-header-600x148.jpg 600w, #wp-content/uploads/2018/07/Business-Architecture-header-992x245.jpg 992w, #wp-content/uploads/2018/07/Business-Architecture-header-1200x296.jpg 1200w, #wp-content/uploads/2018/07/Business-Architecture-header-850x210.jpg 850w, #wp-content/uploads/2018/07/Business-Architecture-header-750x185.jpg 750w"
             title="business-architecture-header"
             width="1680"
           />
@@ -685,7 +685,7 @@ const Main = () => {
                       data-leveltext=""
                       data-listid="2"
                     >
-                      <a href="https://centricconsulting.com/client-stories/customer-experience-transformation-improving-customer-retention-with-business-process-management-bpm/">
+                      <a href="#client-stories/customer-experience-transformation-improving-customer-retention-with-business-process-management-bpm/">
                         <b>
                           Customer                                            Experience Transformation: Improving Customer Retention With Business                                            Process Management (BPM){' '}
                         </b>
@@ -699,7 +699,7 @@ const Main = () => {
                       data-leveltext=""
                       data-listid="2"
                     >
-                      <a href="https://centricconsulting.com/client-stories/leading-a-cultural-transformation-to-increase-engagement-and-trust/">
+                      <a href="#client-stories/leading-a-cultural-transformation-to-increase-engagement-and-trust/">
                         <b>
                           Leading                                            a Cultural Transformation to Increase Engagement and Trust
                         </b>
@@ -716,7 +716,7 @@ const Main = () => {
                       data-leveltext=""
                       data-listid="2"
                     >
-                      <a href="https://centricconsulting.com/client-stories/centric-wwt-work-on-business-transformation-initiative-to-sustain-growth/">
+                      <a href="#client-stories/centric-wwt-work-on-business-transformation-initiative-to-sustain-growth/">
                         <b>
                           Business                                            Transformation Initiative to Sustain Historic Growth
                         </b>
@@ -727,8 +727,8 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </section>
-        <section
+        </section> */}
+        {/* <section
           className="pageblock pageblock--trust_bar one_column_block bg_color bg_color--  pageblock--trust-bar"
           id="pageblock_26426"
         >
@@ -748,14 +748,14 @@ const Main = () => {
               </div>
               <a
                 className="flex-wrap"
-                href="https://centricconsulting.com/client-stories/"
+                href="#client-stories/"
               >
                 <div className="logo">
                   <img
                     alt="Merieux Trustbar"
                     loading="lazy"
                     name="merieux-trustbar"
-                    src="https://centricconsulting.com/wp-content/uploads/2019/03/merieux-trustbar.png"
+                    src="#wp-content/uploads/2019/03/merieux-trustbar.png"
                   />
                 </div>
                 <div className="logo">
@@ -763,7 +763,7 @@ const Main = () => {
                     alt="Web Logos Omnova"
                     loading="lazy"
                     name="web_logos_omnova"
-                    src="https://centricconsulting.com/wp-content/uploads/2019/03/web_Logos_Omnova.png"
+                    src="#wp-content/uploads/2019/03/web_Logos_Omnova.png"
                   />
                 </div>
                 <div className="logo">
@@ -771,7 +771,7 @@ const Main = () => {
                     alt="WWT Trustbar 2"
                     loading="lazy"
                     name="wwt-trustbar-2"
-                    src="https://centricconsulting.com/wp-content/uploads/2019/03/WWT-trustbar-2.png"
+                    src="#wp-content/uploads/2019/03/WWT-trustbar-2.png"
                   />
                 </div>
                 <div className="logo">
@@ -779,7 +779,7 @@ const Main = () => {
                     alt="HSC Trustbar"
                     loading="lazy"
                     name="hsc-trustbar"
-                    src="https://centricconsulting.com/wp-content/uploads/2019/03/HSC-trustbar.png"
+                    src="#wp-content/uploads/2019/03/HSC-trustbar.png"
                   />
                 </div>
                 <div className="logo">
@@ -787,14 +787,14 @@ const Main = () => {
                     alt="SpecialCareUnitlogo Trustbar"
                     loading="lazy"
                     name="specialcareunitlogo-trustbar"
-                    src="https://centricconsulting.com/wp-content/uploads/2019/03/SpecialCareUnitlogo-trustbar.png"
+                    src="#wp-content/uploads/2019/03/SpecialCareUnitlogo-trustbar.png"
                   />
                 </div>
               </a>
             </div>
           </div>
-        </section>
-        <section
+        </section> */}
+        {/* <section
           className="pageblock pageblock--testimonial one_column_block bg_color bg_color-- "
           id="pageblock_17154"
         >
@@ -807,7 +807,7 @@ const Main = () => {
                       <img
                         alt="David O'Toole - WWT"
                         loading="lazy"
-                        src="https://centricconsulting.com/wp-content/uploads/2018/07/WWT-headshot.jpg"
+                        src="#wp-content/uploads/2018/07/WWT-headshot.jpg"
                       />
                     </span>
                   </div>
@@ -845,7 +845,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section
           className="pageblock pageblock--image-text left "
           id="pageblock_42152"
@@ -904,7 +904,7 @@ const Main = () => {
             </div>
           </div>
         </section>
-        <section
+        {/* <section
           className="pageblock pageblock--text-text-text-text-text-text six_column_block bg_color bg_color--white  "
           id="pageblock_27397"
         >
@@ -916,7 +916,7 @@ const Main = () => {
                     textAlign: 'center'
                   }}
                 >
-                  <a href="https://centricconsulting.com/resources/business-transformation/">
+                  <a href="#resources/business-transformation/">
                     Considering or                                already beginning to transform your business? Learn what it takes to achieve successful                                transformation.
                   </a>
                 </h3>
@@ -927,7 +927,7 @@ const Main = () => {
                 >
                   <a
                     className="button"
-                    href="https://centricconsulting.com/resources/business-transformation/"
+                    href="#resources/business-transformation/"
                   >
                     LEARN MORE
                   </a>
@@ -942,7 +942,7 @@ const Main = () => {
                       decoding="async"
                       height="245"
                       loading="lazy"
-                      src="https://centricconsulting.com/wp-content/uploads/2019/07/eBook_Rethinking_Org.png"
+                      src="#wp-content/uploads/2019/07/eBook_Rethinking_Org.png"
                       width="210"
                     />
                   </h4>
@@ -981,7 +981,7 @@ const Main = () => {
                       decoding="async"
                       height="245"
                       loading="lazy"
-                      src="https://centricconsulting.com/wp-content/uploads/2019/07/eBook_Rethinking_Culture.png"
+                      src="#wp-content/uploads/2019/07/eBook_Rethinking_Culture.png"
                       width="210"
                     />
                   </h4>
@@ -1020,7 +1020,7 @@ const Main = () => {
                       decoding="async"
                       height="245"
                       loading="lazy"
-                      src="https://centricconsulting.com/wp-content/uploads/2019/07/eBook_Rethining_MSD.png"
+                      src="#wp-content/uploads/2019/07/eBook_Rethining_MSD.png"
                       width="210"
                     />
                   </h4>
@@ -1060,8 +1060,8 @@ const Main = () => {
                       height="201"
                       loading="lazy"
                       sizes="(max-width: 300px) 100vw, 300px"
-                      src="https://centricconsulting.com/wp-content/uploads/2019/07/webinar_changing-mindsets-300x201.png"
-                      srcSet="https://centricconsulting.com/wp-content/uploads/2019/07/webinar_changing-mindsets-300x201.png 300w, https://centricconsulting.com/wp-content/uploads/2019/07/webinar_changing-mindsets.png 302w"
+                      src="#wp-content/uploads/2019/07/webinar_changing-mindsets-300x201.png"
+                      srcSet="#wp-content/uploads/2019/07/webinar_changing-mindsets-300x201.png 300w, #wp-content/uploads/2019/07/webinar_changing-mindsets.png 302w"
                       width="300"
                     />
                   </h4>
@@ -1101,8 +1101,8 @@ const Main = () => {
                       height="201"
                       loading="lazy"
                       sizes="(max-width: 300px) 100vw, 300px"
-                      src="https://centricconsulting.com/wp-content/uploads/2019/07/webinar_business-agility-300x201.png"
-                      srcSet="https://centricconsulting.com/wp-content/uploads/2019/07/webinar_business-agility-300x201.png 300w, https://centricconsulting.com/wp-content/uploads/2019/07/webinar_business-agility.png 302w"
+                      src="#wp-content/uploads/2019/07/webinar_business-agility-300x201.png"
+                      srcSet="#wp-content/uploads/2019/07/webinar_business-agility-300x201.png 300w, #wp-content/uploads/2019/07/webinar_business-agility.png 302w"
                       width="300"
                     />
                   </h4>
@@ -1142,8 +1142,8 @@ const Main = () => {
                       height="201"
                       loading="lazy"
                       sizes="(max-width: 300px) 100vw, 300px"
-                      src="https://centricconsulting.com/wp-content/uploads/2019/07/webinar_MSD-matters-300x201.png"
-                      srcSet="https://centricconsulting.com/wp-content/uploads/2019/07/webinar_MSD-matters-300x201.png 300w, https://centricconsulting.com/wp-content/uploads/2019/07/webinar_MSD-matters.png 302w"
+                      src="#wp-content/uploads/2019/07/webinar_MSD-matters-300x201.png"
+                      srcSet="#wp-content/uploads/2019/07/webinar_MSD-matters-300x201.png 300w, #wp-content/uploads/2019/07/webinar_MSD-matters.png 302w"
                       width="300"
                     />
                   </h4>
@@ -1160,11 +1160,11 @@ const Main = () => {
                     }}
                   >
                     Learn why{' '}
-                    <a href="https://centricconsulting.com/technology-solutions/modern-software-delivery/">
+                    <a href="#technology-solutions/modern-software-delivery/">
                       Modern                                    Software Delivery{' '}
                     </a>
                     is fundamental to successful{' '}
-                    <a href="https://centricconsulting.com/blog/business-transformation-an-initiative-or-way-of-life/">
+                    <a href="#blog/business-transformation-an-initiative-or-way-of-life/">
                       business                                    transformation
                     </a>
                     {' '}efforts and what it takes to get started with MSD.
@@ -1187,7 +1187,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section
           className="pageblock pageblock--cta one_column_block bg_color bg_color--  pageblock--extra-padding pageblock--cta"
           id="pageblock_8322"
@@ -1205,7 +1205,7 @@ const Main = () => {
               <div className="buttons">
                 <a
                   className="button"
-                  href="https://centricconsulting.com/technology-solutions/"
+                  href="#technology-solutions/"
                 >
                   See our Technology Services{' '}
                 </a>
@@ -1246,7 +1246,7 @@ const Main = () => {
                   >
                     <a
                       className="button"
-                      href="https://centricconsulting.com/contact/"
+                      href="#contact/"
                     >
                       TALK TO AN EXPERT
                     </a>
