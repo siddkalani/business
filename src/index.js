@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './css/autoptimize_e8c0bc7e332d093819d345f6a980b03b.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
