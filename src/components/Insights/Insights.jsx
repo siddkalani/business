@@ -7,54 +7,7 @@ const Insights = () => {
                 <noscript>
                     {`<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59FFWG7"        height="0" width="0" style="display:none;visibility:hidden"></iframe>`}
                 </noscript>
-                <header
-                    className="site-header"
-                    id="masthead"
-                    role="banner"
-                >
-
-                    <div
-                        aria-expanded="false"
-                        className="collapse"
-                        id="searchform"
-                    >
-                        <form
-                            action="#/"
-                            className="searchform form-inline"
-                            method="get"
-                            role="search"
-                        >
-                            <div className="form-group">
-                                <div className="container-fluid">
-                                    <label>
-                                        <span className="sr-only">
-                                            Search for:
-                                        </span>
-                                        <input
-                                            className="form-control default"
-                                            defaultValue=""
-                                            id="s"
-                                            name="s"
-                                            placeholder="Search Site"
-                                            type="text"
-                                        />
-                                    </label>
-                                    <span className="input-group-btn">
-                                        <button
-                                            className="btn searchGo"
-                                            type="submit"
-                                        >
-                                            <i className="fa fa-arrow-right" />
-                                            <span className="sr-only">
-                                                {' '}Enter your search keywords here...{' '}
-                                            </span>
-                                        </button>
-                                    </span>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </header>
+               
                 <main>
                     <div className="header-image header-image--page">
                         <img
@@ -70,7 +23,7 @@ const Insights = () => {
                         <div className="page-title">
                             <div className="container-fluid-large">
                                 <h1>
-                                    Insights Hub
+                                    Our Services
                                 </h1>
                             </div>
                         </div>
@@ -223,7 +176,7 @@ const Insights = () => {
                         </div>
                         <div className="rc-wrapper">
                             <div className="container-fluid-large">
-                                <div className="content-bar">
+                                {/* <div className="content-bar">
                                     <div className="search-btn-wrapper">
                                         <a
                                             className="search-btn pill"
@@ -285,94 +238,9 @@ const Insights = () => {
                                             </option>
                                         </select>
                                     </div>
-                                    <div className="rc-buttons-wrapper">
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill  active"
-                                                href="/resource-hub/"
-                                            >
-                                                Show All
-                                            </a>
-                                        </div>
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill"
-                                                href="#/resource-categories/assessments/"
-                                            >
-                                                Assessments
-                                            </a>
-                                        </div>
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill"
-                                                href="#/resource-categories/blogs/"
-                                            >
-                                                Blogs
-                                            </a>
-                                        </div>
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill"
-                                                href="#/resource-categories/client-stories/"
-                                            >
-                                                Client Stories
-                                            </a>
-                                        </div>
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill"
-                                                href="#/resource-categories/ebooks-white-papers/"
-                                            >
-                                                Ebooks & White Papers
-                                            </a>
-                                        </div>
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill"
-                                                href="#/resource-categories/podcasts/"
-                                            >
-                                                Podcasts
-                                            </a>
-                                        </div>
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill"
-                                                href="#/resource-categories/visuals/"
-                                            >
-                                                Visuals
-                                            </a>
-                                        </div>
-                                        <div className="rc-button-item">
-                                            <a
-                                                className="rc-button pill"
-                                                href="#/resource-categories/webinars/"
-                                            >
-                                                Webinars
-                                            </a>
-                                        </div>
-                                        <a
-                                            className="button-text facetwp-tax-reset"
-                                            href="javascript:void(0);"
-                                            style={{
-                                                display: 'none',
-                                                padding: '6px'
-                                            }}
-                                        >
-                                            Clear All
-                                        </a>
-                                        <script
-                                            dangerouslySetInnerHTML={{
-                                                __html: '                                (function($) {                                    $(document).on(\'facetwp-loaded\', function() {                                        let topics = FWP.facets[\'topics\'];                                        let topics_mobile = FWP.facets[\'topics_mobile\'];                                        let industries = FWP.facets[\'industries\'];                                        let industries_mobile = FWP.facets[\'industries_mobile\'];                                        let selected = topics.concat(topics_mobile, industries, industries_mobile);                                        if (selected.length) {                                            $(\'.facetwp-tax-reset\').show();                                        } else {                                            $(\'.facetwp-tax-reset\').hide();                                        }                                    });                                    $(document).on(\'click\', \'.facetwp-tax-reset\', function() {                                        FWP.reset([\'topics\', \'topics_mobile\', \'industries\', \'industries_mobile\']);                                    });                                })(jQuery);                            '
-                                            }}
-                                        />
-                                        <script
-                                            dangerouslySetInnerHTML={{
-                                                __html: '                                jQuery(document).on(\'click\', \'.facetwp-active-reset\', function() {                                    FWP.reset();                                });                            '
-                                            }}
-                                        />
-                                    </div>
-                                </div>
-                                <div
+                              
+                                </div> */}
+                                {/* <div
                                     className="topic-facet-button"
                                     style={{
                                         marginBottom: '2rem'
@@ -389,7 +257,7 @@ const Insights = () => {
                                             Filter by Topics & Industry
                                         </span>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="container-fluid-large full-width-filters">
                                 <div className="facetwp-filters filters ">

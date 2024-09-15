@@ -1,10 +1,11 @@
 import React from 'react'
 
 const About = () => {
-    
+
     return (
         <>
             <div>
+            
                 <main>
                     <div className="header-image header-image--page">
                         <img
