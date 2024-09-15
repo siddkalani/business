@@ -328,7 +328,7 @@ export default function NavBar() {
                                 </div>
                             </li>
                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45910 dropdown">
-                                <a
+                                <Link to='industries'
                                     aria-expanded="false"
                                     aria-haspopup="true"
                                     className="dropdown-toggle"
@@ -337,7 +337,7 @@ export default function NavBar() {
                                     tabIndex="0"
                                 >
                                     Industries
-                                </a>
+                                </Link>
                                 <div className="dropdown-menu">
                                     <div className="wrapper">
                                         <div className="item-meta">
@@ -807,7 +807,7 @@ export default function NavBar() {
                            
                            
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-46211 dropdown">
-                                <a
+                                <Link to='/insights'
                                     aria-expanded="false"
                                     aria-haspopup="true"
                                     className="dropdown-toggle"
@@ -816,7 +816,7 @@ export default function NavBar() {
                                     tabIndex="0"
                                 >
                                     Insights
-                                </a>
+                                </Link>
                                 
                             </li>
                             
@@ -848,14 +848,14 @@ export default function NavBar() {
                                 
                             </li>
                             <li className="btn btn-primary menu-item menu-item-type-post_type menu-item-object-page menu-item-46057">
-                                <a
+                                <Link to=''
                                     className=""
                                     data-ps2id-api="true"
                                     href="#/contact/"
                                     target="_self"
                                 >
                                     Contact Us
-                                </a>
+                                </Link>
                             </li>
                         </ul>
 
@@ -2192,9 +2192,9 @@ export default function NavBar() {
                             <div className="panel panel-default">
                                 <div className="panel-heading">
                                     <span className="panel-title">
-                                        <a href="#/resource-hub/">
+                                        <Link  to='insights'>
                                             Insights
-                                        </a>
+                                        </Link>
                                     </span>
                                     <a
                                         data-parent="#accordion"
