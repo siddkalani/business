@@ -5,6 +5,8 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import About from './components/AboutUs/About';
 import Industries from './components/Industries/Industries';
+import Contacts from './components/Contacts/Contacts';
+import Insights from './components/Insights/Insights';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Main />
       <Footer/> */}
       {/* <About /> */}
-      <Industries/>
+      {/* <Industries/> */}
+      {/* <Contacts/> */}
+      <Insights/>
     </div>
   );
 }
