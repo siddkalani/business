@@ -37,15 +37,7 @@ const Header = () => {
                                     />
                                 </label>
                                 <span className="input-group-btn">
-                                    <button
-                                        className="btn searchGo"
-                                        type="submit"
-                                    >
-                                        <i className="fa fa-arrow-right" />
-                                        <span className="sr-only">
-                                            {' '}Enter your search keywords here...{' '}
-                                        </span>
-                                    </button>
+                                   
                                 </span>
                             </div>
                         </div>
