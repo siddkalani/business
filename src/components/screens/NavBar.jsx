@@ -6,44 +6,6 @@ export default function NavBar() {
                     className="navbar navbar-default"
                     role="navigation"
                 >
-                    <div className="navbar-header">
-                        {/* <div
-                            className="site-branding"
-                            itemScope
-                            // itemType="http://schema.org/Organization"
-                        >
-                            <span
-                                className="site title"
-                                itemProp="logo"
-                            >
-                                <a
-                                    className="navbar-brand"
-                                    // href="#"
-                                    rel="home"
-                                    title="A&K"
-                                >
-                                    <img
-                                        alt="A&K"
-                                        className="logo-interior"
-                                        height="27"
-                                        // src="hero.jpg"
-                                        width="196"
-                                    />
-                                </a>
-                            </span>
-                        </div> */}
-                        <button
-                            className="navbar-toggle collapsed"
-                            data-target="#mobile-navigation"
-                            data-toggle="collapse"
-                            type="button"
-                        >
-                            <span className="sr-only">
-                                Toggle navigation
-                            </span>
-                            <span className="fa-bars fa" />
-                        </button>
-                    </div>
                     <div id="primary-navigation">
                         <ul
                             className="nav navbar-nav"
@@ -577,7 +539,7 @@ export default function NavBar() {
                                             </ul>
                                         </div>
                                         <div
-                                            className="tab-pane "
+                                            className="tab-pane"
                                             id="menu-item-45911-pane"
                                         >
                                             <span className="tab-heading">
@@ -1076,20 +1038,7 @@ export default function NavBar() {
                                 </a>
                             </li>
                         </ul>
-                        <button
-                            className="search button collapsed"
-                            data-target="#searchform"
-                            data-toggle="collapse"
-                        >
-                            <i className="fa fa-search" />
-                            <span className="sr-only">
-                                Open Search
-                            </span>
-                            <i className="fa fa-close" />
-                            <span className="sr-only">
-                                Close Search
-                            </span>
-                        </button>
+
                     </div>
                     <div
                         className="collapse"
