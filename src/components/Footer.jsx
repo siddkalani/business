@@ -49,11 +49,7 @@ const Footer = () => {
                     <div className="wrapper">
                         <div className="row">
                             <div className="logo">
-                                {/* <img
-                                    alt="Centric Consulting logo in white"
-                                    loading="lazy"
-                                    src="#/wp-content/themes/orbit-media/images/logo-white.svg"
-                                /> */}
+                            
                                 <div className="row">
                                     <div className="text">
                                         Join 20,000 other people and get the latest updates on business, technology and digital                                to help improve your business.{' '}
