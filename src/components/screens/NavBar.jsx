@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link, useNavigate } from "react-router-dom";
 
 export default function NavBar() {
+    const navigate = useNavigate();
   return (
     <nav
                     className="navbar navbar-default"
@@ -10,7 +12,18 @@ export default function NavBar() {
                         <ul
                             className="nav navbar-nav"
                             id="menu-mega-menu"
-                        >
+              >
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8261 current_page_item menu-item-has-children menu-item-45941 dropdown">
+                                <Link to='main'
+                                    aria-expanded="false"
+                                    aria-haspopup="true"
+                                    className="dropdown-toggle"
+                                    data-toggle="dropdown"
+                                    role="button"
+                                    tabIndex="0"
+                                >
+                                    Home
+                                </Link> </li>
                             <li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8261 current_page_item menu-item-has-children menu-item-45941 dropdown">
                                 <a
                                     aria-expanded="false"
@@ -27,7 +40,7 @@ export default function NavBar() {
                                         <div className="item-meta">
                                             <span className="item-heading">
                                                 <a href="">
-                                                    Business                                           Consulting
+                                                    Our                                            Services
                                                 </a>
                                             </span>
                                             <p className="item-desc" />
@@ -38,7 +51,7 @@ export default function NavBar() {
                                                     data-toggle="tab"
                                                     href="#menu-item-45998-pane"
                                                 >
-                                                    Enterprise Portfolio and                                            Program Management
+                                                    Advisory
                                                 </a>
                                             </li>
                                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-48779">
@@ -46,7 +59,7 @@ export default function NavBar() {
                                                     data-toggle="tab"
                                                     href="#menu-item-48779-pane"
                                                 >
-                                                    Experience Design
+                                                    Audit and Assurance
                                                 </a>
                                             </li>
                                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46190">
@@ -54,7 +67,7 @@ export default function NavBar() {
                                                     data-toggle="tab"
                                                     href="#menu-item-46190-pane"
                                                 >
-                                                    Human Capital Management /                                            Workforce Management
+                                                    Consulting
                                                 </a>
                                             </li>
                                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45950">
@@ -62,7 +75,7 @@ export default function NavBar() {
                                                     data-toggle="tab"
                                                     href="#menu-item-45950-pane"
                                                 >
-                                                    Operational Excellence                                            Consulting
+                                                    Environmental, social and governance
                                                 </a>
                                             </li>
                                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45993">
@@ -78,7 +91,7 @@ export default function NavBar() {
                                                     data-toggle="tab"
                                                     href="#menu-item-45939-pane"
                                                 >
-                                                    Strategy Alignment and                                            Architecture
+                                                 Financial services advisory
                                                 </a>
                                             </li>
                                         </ul>
@@ -330,7 +343,7 @@ export default function NavBar() {
                                         <div className="item-meta">
                                             <span className="item-heading">
                                                 <a href="#/technology-solutions/">
-                                                    Technology                                            Consulting
+                                                    Industries
                                                 </a>
                                             </span>
                                             <p className="item-desc" />
@@ -804,87 +817,11 @@ export default function NavBar() {
                                 >
                                     Insights
                                 </a>
-                                <div className="dropdown-menu">
-                                    <div className="wrapper">
-                                        <div className="item-meta">
-                                            <span className="item-heading">
-                                                <a href="#/resource-hub/">
-                                                    Insights
-                                                </a>
-                                            </span>
-                                            <p className="item-desc" />
-                                        </div>
-                                        <ul className="nav nav-tabs">
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46043">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="/resource-categories/blogs/"
-                                                    target="_self"
-                                                >
-                                                    Blogs
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46044">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="/resource-categories/webinars/"
-                                                    target="_self"
-                                                >
-                                                    On                                            Demand Webinars
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46045">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="/resource-categories/ebooks-white-papers/"
-                                                    target="_self"
-                                                >
-                                                    White Papers & Ebooks
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46046">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="/resource-categories/podcasts/"
-                                                    target="_self"
-                                                >
-                                                    Podcasts
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="features">
-                                        <span>
-                                            Features and beyond
-                                        </span>
-                                        <div className="feature">
-                                            <a
-                                                className="stretched-link"
-                                                href="#/news-and-events/what-your-pen-test-isnt-showing-you-a-live-hack/"
-                                            >
-                                                Pen Testing
-                                            </a>
-                                            <p>
-                                                In this on-demand webinar, our cybersecurity experts simulate a live network                                        attack on the vulnerabilities that many organizations have hiding in plain                                        sight.{' '}
-                                            </p>
-                                        </div>
-                                        <div className="feature">
-                                            <a
-                                                className="stretched-link"
-                                                href="#/blog/how-to-revolutionize-enterprise-growth-with-ai-innovation/"
-                                            >
-                                                AI & Enterprise Growth
-                                            </a>
-                                            <p>
-                                                In this blog, we explore how AI can fuel enterprise growth and innovation.{' '}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </li>
                             
                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46048 dropdown">
-                                <a
+                                <Link to='/about'
                                     aria-expanded="false"
                                     aria-haspopup="true"
                                     className="dropdown-toggle"
@@ -893,82 +830,9 @@ export default function NavBar() {
                                     tabIndex="0"
                                 >
                                     About Us
-                                </a>
-                                <div className="dropdown-menu">
-                                    <div className="wrapper">
-                                        <div className="item-meta">
-                                            <span className="item-heading">
-                                                <a href="#/about-us/">
-                                                    About Us
-                                                </a>
-                                            </span>
-                                            <p className="item-desc" />
-                                        </div>
-                                        <ul className="nav nav-tabs">
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46094">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="#/about-us/"
-                                                    target="_self"
-                                                >
-                                                    Who We Are
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46047">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="/resource-categories/client-stories/"
-                                                    target="_self"
-                                                >
-                                                    Client Stories
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46055">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="/partners/"
-                                                    target="_self"
-                                                >
-                                                    Partners
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-46056">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="/locations/"
-                                                    target="_self"
-                                                >
-                                                    Locations
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="features">
-                                        <div className="feature">
-                                            <img
-                                                alt=""
-                                                className="attachment-medium size-medium"
-                                                decoding="async"
-                                                fetchpriority="high"
-                                                height="169"
-                                                sizes="(max-width: 300px) 100vw, 300px"
-                                                src="#/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-300x169.jpg"
-                                                srcSet="#/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-300x169.jpg 300w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-1024x576.jpg 1024w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-768x432.jpg 768w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-1536x864.jpg 1536w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-600x338.jpg 600w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-992x558.jpg 992w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-1200x675.jpg 1200w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-850x478.jpg 850w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb-750x422.jpg 750w, #/wp-content/uploads/2024/02/Centric-Origin-Story-thumb.jpg 1920w"
-                                                width="300"
-                                            />
-                                            {' '}
-                                            <a
-                                                className="stretched-link"
-                                                href="#/about-us/#Centric-Origin-Video"
-                                            >
-                                                Our Origin Story
-                                            </a>
-                                            <p>
-                                                In this video, founding CEO Dave Rosevelt and current CEO Larry English sit down                                        to talk about A&K's origin story. Even 25 years later, we                                        continue to uphold our mission of creating unmatched experiences                                        for employees, clients and communities.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </Link>
+
+                                    
                             </li>
                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46051 dropdown">
                                 <a
@@ -981,51 +845,7 @@ export default function NavBar() {
                                 >
                                     Careers
                                 </a>
-                                <div className="dropdown-menu">
-                                    <div className="wrapper">
-                                        <div className="item-meta">
-                                            <span className="item-heading">
-                                                <a href="#/about-us/careers/">
-                                                    Careers
-                                                </a>
-                                            </span>
-                                            <p className="item-desc" />
-                                        </div>
-                                        <ul className="nav nav-tabs">
-                                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-48439">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="#/careers-resources/"
-                                                    target="_self"
-                                                >
-                                                    Culture & Career Stories
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-48496">
-                                                <a
-                                                    data-ps2id-api="true"
-                                                    href="#/about-us/diversity-and-inclusion/"
-                                                    target="_self"
-                                                >
-                                                    Diversity and Inclusion
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="features">
-                                        <div className="feature">
-                                            <a
-                                                className="stretched-link"
-                                                href="https://www.gem.com/form?formID=bfd8a0e3-bb0d-4442-815a-4bb331e01307"
-                                            >
-                                                Join Our Talent Network
-                                            </a>
-                                            <p>
-                                                Are you looking for an unmatched experience? Join our Talent Network to engage                                        with our unique culture while staying current with our news and job                                        opportunities.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </li>
                             <li className="btn btn-primary menu-item menu-item-type-post_type menu-item-object-page menu-item-46057">
                                 <a

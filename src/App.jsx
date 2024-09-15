@@ -4,16 +4,17 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import About from './components/AboutUs/About';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      {/* <Header />
-      <Main />
-      <Footer/> */}
-      <About />
+      <Header />
+      <Outlet />
+      <Footer/>
+      {/* <About /> */}
     </div>
   );
 }
 
-export default App;
+export default App; 
