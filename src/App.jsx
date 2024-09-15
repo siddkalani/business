@@ -4,22 +4,19 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import About from './components/AboutUs/About';
-import Industries from './components/Industries/Industries';
-import Contacts from './components/Contacts/Contacts';
-import Insights from './components/Insights/Insights';
-
+import { Outlet } from 'react-router-dom';
+import ScrollTop from './components/scroll/ScrollToTop'
 function App() {
   return (
     <div>
-      {/* <Header />
-      <Main />
-      <Footer/> */}
+      <ScrollTop />
+      <Header />
+      <Outlet />
+        <Footer />
+        {/* </ScrollTop> */}
       {/* <About /> */}
-      {/* <Industries/> */}
-      {/* <Contacts/> */}
-      <Insights/>
     </div>
   );
 }
 
-export default App;
+export default App; 
