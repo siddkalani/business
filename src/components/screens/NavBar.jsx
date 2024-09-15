@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import NavList from './NavList';
 
 export default function NavBar() {
@@ -10,26 +10,25 @@ export default function NavBar() {
             role="navigation"
         >
             <div id="primary-navigation">
-                <ul
-                    className="nav navbar-nav"
-                    id="menu-mega-menu"
-                >
+                <ul className="nav navbar-nav" id="menu-mega-menu">
+                    <NavList label="Home" path="/" />
+                    <NavList label="Services" path="/services" />
+                    <NavList label="Industries" path="/industries" />
+                    <NavList label="About" path="/about" />
 
-                    <NavList props={'Home'} />
-                    <NavList props={'Services'} />
-                    <NavList props={'Industries'} />
-                    <NavList props={'About'} />
-                    <li className="btn btn-primary menu-item menu-item-type-post_type menu-item-object-page menu-item-46057">
-                        <Link to='/'
+                    {/* Contact Us button */}
+                    <li className="btn btn-primary menu-item menu-item-type-post_type menu-item-object-page">
+                        <NavLink
+                            to="/"
                             className=""
-                            data-ps2id-api="true"
-                            href="#/contact/"
-                            target="_self"
+                            // activeClassName="active"
+                            // target="_self"
                         >
                             Contact Us
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
+
             </div>
 
             <div
