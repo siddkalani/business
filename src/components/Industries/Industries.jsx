@@ -7,54 +7,6 @@ const Industries = () => {
                 <noscript>
                     {`<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59FFWG7"        height="0" width="0" style="display:none;visibility:hidden"></iframe>`}
                 </noscript>
-                <header
-                    className="site-header"
-                    id="masthead"
-                    role="banner"
-                >
-                    
-                    <div
-                        aria-expanded="false"
-                        className="collapse"
-                        id="searchform"
-                    >
-                        <form
-                            action="#/"
-                            className="searchform form-inline"
-                            method="get"
-                            role="search"
-                        >
-                            <div className="form-group">
-                                <div className="container-fluid">
-                                    <label>
-                                        <span className="sr-only">
-                                            Search for:
-                                        </span>
-                                        <input
-                                            className="form-control default"
-                                            defaultValue=""
-                                            id="s"
-                                            name="s"
-                                            placeholder="Search Site"
-                                            type="text"
-                                        />
-                                    </label>
-                                    <span className="input-group-btn">
-                                        <button
-                                            className="btn searchGo"
-                                            type="submit"
-                                        >
-                                            <i className="fa fa-arrow-right" />
-                                            <span className="sr-only">
-                                                {' '}Enter your search keywords here...{' '}
-                                            </span>
-                                        </button>
-                                    </span>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </header>
                 <main>
                     <div className="header-image header-image--page">
                         <img
