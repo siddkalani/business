@@ -25,7 +25,7 @@ const Industries = () => {
                                     Industries Served
                                 </h1>
                                 <p>
-                                    Whether you’re a P&C carrier, a pharmaceutical researcher, a financial adviser or another industry leading organization, we deliver the industry expertise you are looking for.
+                                    Whether you’re in healthcare, finance, manufacturing, or technology, we bring the specialized knowledge your business needs. Our expertise empowers organizations across industries to drive success and innovation.
                                 </p>
                             </div>
                         </div>
@@ -59,23 +59,24 @@ const Industries = () => {
                                 >
                                     <div className="entry facetwp-template">
                                         <p className="intro-text">
-                                            We serve our clients by providing industry consulting expertise that can solve their biggest business challenges.
+                                            Shaping Your Industry’s Future with Innovation and Expertise.
                                         </p>
                                         <p>
-                                            A&K Consulting understands the importance of industry knowledge. It is how we understand your challenges, and offer long lasting solutions.
+                                            A&K Consulting and Advisory understands the importance of industry knowledge. It is how we understand your challenges, and offer long lasting solutions.
                                         </p>
                                         <h2>
-                                            Industry Consulting Overview
+                                            Expert Industry Consulting Services
                                         </h2>
                                         <p>
-                                            Our industry teams have spent decades dealing with the nuances of your industry, and know the challenges in your value chain. They have a wealth of experience to share in helping you transform your organization to drive profit                                growth and create an outstanding customer experience.
+                                            Our specialized teams have decades of experience in navigating the complexities of your industry and understand the unique challenges you face. With deep expertise, we help transform your business to enhance operational efficiency and foster sustainable growth.
                                         </p>
                                         <p>
-                                            We deliver consulting services in a variety of different ways: deliverable-based projects, teaming arrangements or role-based engagements.
+                                            We offer flexible consulting solutions, whether through project-based engagements, collaborative partnerships, or dedicated roles tailored to your specific needs.
                                         </p>
                                         <p>
-                                            Regardless of the consulting approach we take, we will bring to bear the team members that possess the right skills (technical or functional) and corresponding industry expertise to ensure successful delivery on all initiatives.
+                                            No matter the approach, our consultants bring the right mix of skills and industry knowledge, ensuring a seamless and successful implementation of your strategic initiatives.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +95,7 @@ const Industries = () => {
                                 </header>
                                 <div className="pageblock__subheader">
                                     <p>
-                                        We serve these five main industries with deep knowledge and expertise:
+                                        We serve these industries with deep knowledge and expertise:
                                     </p>
                                 </div>
                                 <div className="row">
@@ -223,11 +224,111 @@ const Industries = () => {
                                             We bring the solutions, people, and technology to help fulfill your government mission.
                                         </p>
                                     </div>
+                                    <div className="pageblock__column col-xs-12 col-sm-4 text">
+                                        <p>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                <img
+                                                    alt="public sector"
+                                                    className="alignnone wp-image-8311 size-medium"
+                                                    decoding="async"
+                                                    height="200"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
+                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    width="300"
+                                                />
+                                            </a>
+                                        </p>
+                                        <h6>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                Telecommunication
+                                            </a>
+                                        </h6>
+                                        <p>
+                                            Are you ready to deliver on your growth ambitions? We work with TMT leaders to navigate the risks and opportunities.
+                                        </p>
+                                    </div>
+                                    <div className="pageblock__column col-xs-12 col-sm-4 text">
+                                        <p>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                <img
+                                                    alt="public sector"
+                                                    className="alignnone wp-image-8311 size-medium"
+                                                    decoding="async"
+                                                    height="200"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
+                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    width="300"
+                                                />
+                                            </a>
+                                        </p>
+                                        <h6>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                Education
+                                            </a>
+                                        </h6>
+                                        <p>
+                                            Our expertise and insight can help you navigate both current and emerging challenges in the education sector for long-term success.
+                                        </p>
+                                    </div>
+                                    <div className="pageblock__column col-xs-12 col-sm-4 text">
+                                        <p>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                <img
+                                                    alt="public sector"
+                                                    className="alignnone wp-image-8311 size-medium"
+                                                    decoding="async"
+                                                    height="200"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
+                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    width="300"
+                                                />
+                                            </a>
+                                        </p>
+                                        <h6>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                Real Estate
+                                            </a>
+                                        </h6>
+                                        <p>
+                                            Elevate your success in real estate and infrastructure with strategies that address market dynamics and drive growth.
+                                        </p>
+                                    </div>
+                                    {/* <div className="pageblock__column col-xs-12 col-sm-4 text">
+                                        <p>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                <img
+                                                    alt="public sector"
+                                                    className="alignnone wp-image-8311 size-medium"
+                                                    decoding="async"
+                                                    height="200"
+                                                    loading="lazy"
+                                                    sizes="(max-width: 300px) 100vw, 300px"
+                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
+                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    width="300"
+                                                />
+                                            </a>
+                                        </p>
+                                        <h6>
+                                            <a href="#/industries/public-sector-consulting-services/">
+                                                Telecommunication
+                                            </a>
+                                        </h6>
+                                        <p>
+                                            Are you ready to deliver on your growth ambitions? We work with TMT leaders to navigate the risks and opportunities.
+                                        </p>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                     </section>
-                
+
                     <section
                         className="pageblock pageblock--post_feed one_column_block bg_color bg_color--  pageblock--post-feed"
                         id="pageblock_8774"
@@ -235,12 +336,13 @@ const Industries = () => {
                         <div className="featured-posts modular">
                             <div className="featured-posts__header">
                                 <h2>
-                                    Our latest insights
+                                    Industry Insights and Updates
                                 </h2>
                                 <p>
-                                    Trending Business and Technology Topics{' '}
+                                    Discover the latest developments and key trends across various industries.
                                 </p>
                             </div>
+
                             <div className="featured-posts__column featured-posts__column--four">
                                 <div
                                     className="featured-single square"
@@ -253,15 +355,12 @@ const Industries = () => {
                                                 backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2018/07/Special-Care-Providers-Web-FB-835x627.jpg)'
                                             }}
                                         />
-                                        <div className="post-meta-landing">
-                                            <a href="#/blog/">
-                                                blog
-                                            </a>
-                                        </div>
+
                                         <div className="post-content">
                                             <h3 className="post-title">
-                                                <a href="#/blog/special-care-providers-uses-centric-bluebeak-beacon-technology-improve-healthcare_miami/">
-                                                    Special Care Providers Uses Centric’s BlueBeak Beacon Technology to Improve Healthcare{' '}
+                                                <a >
+                                                    As your objectives continue to evolve, staying informed and adaptable is crucial for achieving your ambitions. Our up-to-date industry insights will empower you to advance with assurance and agility.
+
                                                 </a>
                                             </h3>
                                         </div>
@@ -278,16 +377,13 @@ const Industries = () => {
                                                 backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2020/02/Teams-for-Healthcare-Featured-835x835.jpg)'
                                             }}
                                         />
-                                        <div className="post-meta-landing">
-                                            <a href="#/blog/">
-                                                blog
-                                            </a>
-                                        </div>
+
                                         <div className="post-content">
                                             <h3 className="post-title">
-                                                <a href="#/blog/ending-physician-burnout-and-making-doctors-lives-better-with-microsoft-teams/">
-                                                    Can Microsoft Teams Help Ease Physician Burnout?{' '}
+                                                <a >
+                                                    Exploring How Microsoft Teams Can Alleviate Physician Burnout
                                                 </a>
+
                                             </h3>
                                         </div>
                                     </div>
@@ -303,16 +399,13 @@ const Industries = () => {
                                                 backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2020/03/Microsoft-Teams-for-Government-Twitter.jpg)'
                                             }}
                                         />
-                                        <div className="post-meta-landing">
-                                            <a href="#/blog/">
-                                                blog
-                                            </a>
-                                        </div>
+
                                         <div className="post-content">
                                             <h3 className="post-title">
-                                                <a href="#/blog/government-agencies-how-microsoft-teams-meets-teleworking-needs/">
-                                                    How Microsoft Teams Meets Teleworking Needs for Government Agencies{' '}
+                                                <a>
+                                                    Enhancing Teleworking Capabilities for Government Agencies.
                                                 </a>
+
                                             </h3>
                                         </div>
                                     </div>
@@ -329,15 +422,14 @@ const Industries = () => {
                                             }}
                                         />
                                         <div className="post-meta-landing">
-                                            <a href="#/client-stories/">
-                                                Client Stories
-                                            </a>
+
                                         </div>
                                         <div className="post-content">
                                             <h3 className="post-title">
-                                                <a href="#/client-stories/how-20-years-together-made-two-companies-stronger-than-ever/">
-                                                    How 20 Years Together Made Two Companies Stronger Than Ever{' '}
+                                                <a >
+                                                    How Our Innovative Approach Can Transform Your Industry and Foster Strong Partnerships
                                                 </a>
+
                                             </h3>
                                         </div>
                                     </div>
@@ -398,7 +490,7 @@ const Industries = () => {
                             </div>
                         </div>
                     </section>
-                  
+
                     <section
                         className="pageblock pageblock--text one_column_block bg_image  "
                         id="pageblock_8779"
@@ -419,8 +511,9 @@ const Industries = () => {
                                             </div>
                                         </div>
                                         <h2>
-                                            We can help you go where you want to grow in your industry.
+                                            Partner with Us to Achieve Your Industry Growth Goals
                                         </h2>
+
                                         <p>
                                             <a
                                                 className="button"
@@ -435,7 +528,7 @@ const Industries = () => {
                         </div>
                     </section>
                 </main>
-                
+
             </div>
         </>
     )

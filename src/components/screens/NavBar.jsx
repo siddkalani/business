@@ -14,17 +14,17 @@ export default function NavBar() {
                     <NavList label="Home" path="/" />
                     <NavList label="Services" path="/services" />
                     <NavList label="Industries" path="/industries" />
-                    <NavList label="About" path="/about" />
+                    {/* <NavList label="About" path="/about" /> */}
 
                     {/* Contact Us button */}
                     <li className="btn btn-primary menu-item menu-item-type-post_type menu-item-object-page">
                         <NavLink
-                            to="/"
+                            to="/about"
                             className=""
                             // activeClassName="active"
                             // target="_self"
                         >
-                            Contact Us
+                            About Us
                         </NavLink>
                     </li>
                 </ul>

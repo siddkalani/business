@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -15,9 +16,9 @@ const Footer = () => {
                                     India{' '}
                                 </a>
                             </li>
-                          
-                            
-                            
+
+
+
                             <li className="city-list__single">
                                 <a href="#/locations/cleveland/">
                                     China{' '}
@@ -38,7 +39,7 @@ const Footer = () => {
                                     Russia{' '}
                                 </a>
                             </li>
-                           
+
                         </ul>
                     </div>
                 </section>
@@ -49,17 +50,17 @@ const Footer = () => {
                     <div className="wrapper">
                         <div className="row">
                             <div className="logo">
-                            
+
                                 <div className="row">
                                     <div className="text">
-                                        Join 20,000 other people and get the latest updates on business, technology and digital                                to help improve your business.{' '}
+                                        Join other people and get the latest updates on business, technology and digital                                to help improve your business.{' '}
                                     </div>
                                     <div className="button-wrap">
                                         <a
                                             className="button"
                                             href="#/sign-up-for-newsletter/"
                                         >
-                                            Subscribe{' '}
+                                            Get in touch{' '}
                                         </a>
                                     </div>
                                 </div>
@@ -68,7 +69,7 @@ const Footer = () => {
                                 <div className="row">
                                     <div className="footer-menu-wrap">
                                         <span className="footer-menu--title">
-                                            Services
+                                            Home
                                         </span>
                                         <div
                                             className="menu-footer-menu-one-container"
@@ -82,46 +83,49 @@ const Footer = () => {
                                                     className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8261 current_page_item menu-item-14902"
                                                     id="menu-item-14902"
                                                 >
-                                                    <a
+                                                    <Link
                                                         aria-current="page"
                                                         data-ps2id-api="true"
-                                                        href="#/business-consulting/"
+                                                        // href="#/business-consulting/"
+                                                        to='/services'
                                                     >
-                                                        Business Consulting
-                                                    </a>
+                                                        Services
+                                                    </Link>
                                                 </li>
                                                 <li
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-14905"
                                                     id="menu-item-14905"
                                                 >
-                                                    <a
+                                                    <Link
                                                         data-ps2id-api="true"
-                                                        href="#/technology-solutions/"
+                                                        // href="#/technology-solutions/"
+                                                        to='/industries'
                                                     >
-                                                        Technology Solutions Consulting &                                                Services
-                                                    </a>
+                                                        Industries
+                                                    </Link>
                                                 </li>
                                                 <li
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-20320"
                                                     id="menu-item-20320"
                                                 >
-                                                    <a
+                                                    <Link
                                                         data-ps2id-api="true"
-                                                        href="#/digital-transformation-consulting/"
+                                                        // href="#/digital-transformation-consulting/"
+                                                        to='/about'
                                                     >
-                                                        Digital Consulting
-                                                    </a>
+                                                        About Us
+                                                    </Link>
                                                 </li>
                                                 <li
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-14904"
                                                     id="menu-item-14904"
                                                 >
-                                                    <a
+                                                    <Link to=''
                                                         data-ps2id-api="true"
                                                         href="#/industries/"
                                                     >
-                                                        Industries
-                                                    </a>
+                                                        Contact Us
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -230,7 +234,7 @@ const Footer = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    // target="_blank"
+                                                // target="_blank"
                                                 >
                                                     <span
                                                         aria-hidden="true"
@@ -249,7 +253,7 @@ const Footer = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    // target="_blank"
+                                                // target="_blank"
                                                 >
                                                     <span className="x-icon">
                                                         <svg
@@ -274,7 +278,7 @@ const Footer = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    // target="_blank"
+                                                // target="_blank"
                                                 >
                                                     <span
                                                         aria-hidden="true"
@@ -293,7 +297,7 @@ const Footer = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    // target="_blank"
+                                                // target="_blank"
                                                 >
                                                     <span
                                                         aria-hidden="true"
@@ -309,7 +313,7 @@ const Footer = () => {
                                                     </span>
                                                 </a>
                                             </li>
-                                           
+
                                         </ul>
                                     </div>
                                 </div>

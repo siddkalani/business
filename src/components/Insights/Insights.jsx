@@ -7,7 +7,7 @@ const Insights = () => {
                 <noscript>
                     {`<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59FFWG7"        height="0" width="0" style="display:none;visibility:hidden"></iframe>`}
                 </noscript>
-               
+
                 <main>
                     <div className="header-image header-image--page">
                         <img
@@ -16,15 +16,19 @@ const Insights = () => {
                             decoding="async"
                             height="415"
                             sizes="(max-width: 1680px) 100vw, 1680px"
-                            src="https://centricconsulting.com/wp-content/uploads/2019/05/Resources-Page-Image-Header.jpg"
-                            srcSet="https://centricconsulting.com/wp-content/uploads/2019/05/Resources-Page-Image-Header.jpg 1680w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-300x74.jpg 300w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-768x190.jpg 768w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-1024x253.jpg 1024w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-600x148.jpg 600w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-992x245.jpg 992w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-1200x296.jpg 1200w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-850x210.jpg 850w, #/wp-content/uploads/2019/05/Resources-Page-Image-Header-750x185.jpg 750w"
+                            src="/images/services.jpeg"
+                            srcSet="/images/services.jpeg"
                             width="1680"
                         />
                         <div className="page-title">
                             <div className="container-fluid-large">
                                 <h1>
-                                    Our Services
+                                    Explore Our Comprehensive Services
                                 </h1>
+                                <p>
+                                    Our range of services is designed to provide the expertise and solutions needed to drive success and innovation in any industry. We are committed to delivering tailored support that helps your business thrive and achieve its goals.
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -46,10 +50,10 @@ const Insights = () => {
                                                             textAlign: 'left'
                                                         }}
                                                     >
-                                                        Are you looking for expert, practical advice to solve your business and technology needs?
+                                                        Bespoke Solutions for Optimal Results
                                                     </p>
                                                     <p>
-                                                        Whatever your business or technology questions, you’ve come to the right place. Find our most relevant content at your fingertips. Start reading – and get to know us better!
+                                                        Our consulting agency delivers customized strategies to tackle your unique challenges. From optimizing processes to implementing innovative technology, we turn your vision into reality with expert guidance.
                                                     </p>
                                                 </div>
                                             </div>
@@ -64,10 +68,10 @@ const Insights = () => {
                             <div className="featured-posts modular">
                                 <div className="featured-posts__header">
                                     <h2>
-                                        Featured Posts
+
                                     </h2>
                                     <p>
-                                        Trending business and technology topics
+                                        Trending business and solutions
                                     </p>
                                 </div>
                                 <div className="featured-posts__column featured-posts__column--four">
@@ -85,12 +89,13 @@ const Insights = () => {
                                                 />
                                                 <div className="content-wrap">
                                                     <div className="post-meta-landing">
-                                                        Webinars
+                                                        A&K Services
                                                     </div>
                                                     <div className="post-content">
                                                         <h3 className="post-title">
-                                                            AI’s Next Disruptor: Go Beyond ChatGPT with AI Agents
+                                                            Unlocking New Potential: How Our Services Can Elevate Your Business
                                                         </h3>
+
                                                     </div>
                                                 </div>
                                             </a>
@@ -111,10 +116,10 @@ const Insights = () => {
                                                 <div className="content-wrap">
                                                     <div className="post-content">
                                                         <div className="post-meta-landing">
-                                                            Client Stories
+                                                            Governance advisory
                                                         </div>
                                                         <h3 className="post-title">
-                                                            Preparing SECURA Insurance’s Data for Business Growth and Expansion
+                                                            We guide boards and management teams in frameworks, team processes and leadership dynamics to deliver sustainable value.
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -136,10 +141,10 @@ const Insights = () => {
                                                 <div className="content-wrap">
                                                     <div className="post-content">
                                                         <div className="post-meta-landing">
-                                                            Blogs
+                                                            Financial services advisory
                                                         </div>
                                                         <h3 className="post-title">
-                                                            Does My Project Need a Delivery Excellence Role?
+                                                            Get market-driven expertise to achieve your goals in banking, insurance, capital markets, and investment management.
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -161,10 +166,10 @@ const Insights = () => {
                                                 <div className="content-wrap">
                                                     <div className="post-content">
                                                         <div className="post-meta-landing">
-                                                            Client Stories
+                                                            Business risk services
                                                         </div>
                                                         <h3 className="post-title">
-                                                            Strengthening Identity Access Management for an International Automobile Finance Company
+                                                            Our market-driven expertise helps firms keep growing and manage risk in an evolving regulatory landscape.
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -350,15 +355,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Client Stories
+                                                    Economic consulting
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        Strengthening Identity Access Management for an International Automobile Finance Company
+                                                        Bespoke guidance grounded in complex economic theory and practical sector insight to help you make the right decisions.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         We identified gaps in an automobile company’s identity access management (IAM) system to help protect the company’s data.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -376,15 +381,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Blogs
+                                                    Transaction advisory services
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        AI’s Next Disruptor: Go Beyond ChatGPT with AI Agents: Webinar Recap
+                                                        Whether buying or selling, we help you get the deal done with our comprehensive range of transaction advisory services.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         Our on-demand webinar showcases the next breakthrough in artificial intelligence: agentic AI. Read our recap and watch.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -402,15 +407,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Blogs
+                                                    Financial accounting advisory services (FAAS)
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        Does My Project Need a Delivery Excellence Role?
+                                                        Our FAAS team can support your finance function with the flexible resource they need to get results.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         Hiring a dedicated delivery excellence leader will set you apart by aligning your technology investment with your business processes.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -428,15 +433,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Blogs
+                                                    Insolvency and global asset recovery
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        What is Salesforce Data Cloud? A Comprehensive Guide
+                                                        We provide asset tracing and seamless cross-border global recovery for clients.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         Salesforce Data Cloud unifies customer data, offering real-time insights and personalization across industries.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -454,15 +459,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Client Stories
+                                                    Forensic and investigation services
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        Preparing SECURA Insurance’s Data for Business Growth and Expansion
+                                                        Market-driven expertise in investigations, dispute resolution and digital forensics.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         We helped property and casualty insurance company SECURA modernize its data and safely retire legacy systems.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -480,14 +485,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
+                                                    Transformation consulting
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        9 Key Project Management Organization Trends You Need to Know
+                                                        Is business transformation a priority for your organisation? Our expert insight and guidance can help you achieve it.
                                                     </h3>
-                                                    <div className="excerpt">
-                                                        We share a collection of project management organization trends you need to be aware of to ensure your business stays ahead of the curve.{' '}
-                                                    </div>
+                                                    {/* <div className="excerpt">
+                                                        We helped property and casualty insurance company SECURA modernize its data and safely retire legacy systems.{' '}
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -505,15 +511,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Blogs
+                                                    Restructuring
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        How to Adapt Agile Working Practices to Meet the Challenges of Distributed Teams
+                                                        Our restructuring team help lenders, investors and management navigate contingency plans, restructuring and insolvency.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         We explore how the fundamental principles and practices of Agile can help meet the challenges of working with distributed teams.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -531,15 +537,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Blogs
+                                                    Risk
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        5 Truths about Chief Data Officers and Business-Driven Data Strategies
+                                                        Meet risks with confidence and transform your business – we support you to manage risk and deliver on your goals.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         What is a chief data officer, and why do you need one to implement your business-driven data strategies? We explain in this blog.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -557,15 +563,15 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Blogs
+                                                    Tax
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        Dynamics 365 Implementations: Projects That Fail and How to Solve Them
+                                                        Tax has always been complicated, but it's more important than ever to understand how the evolving tax landscape impacts you and your business.
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         We explore common Dynamics 365 implementation problems, discuss the underlying causes of those issues, and provide recommendations to apply.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
@@ -583,20 +589,22 @@ const Insights = () => {
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Blogs
+                                                    International
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
-                                                        Can AI Be The Key To Workplace Satisfaction?
+                                                        Unlock global opportunities with our local expertise and worldwide reach
                                                     </h3>
-                                                    <div className="excerpt">
+                                                    {/* <div className="excerpt">
                                                         In this segment of “Office Optional with Larry English,” Larry explores how artificial intelligence can bolster employee satisfaction.{' '}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
-                                    <div
+
+
+                                    {/* <div
                                         className="post-single"
                                         id="post-53515"
                                     >
@@ -647,7 +655,7 @@ const Insights = () => {
                                                 </div>
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="facetwp-pagination pagination">

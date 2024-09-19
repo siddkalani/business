@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
             <div>
-            
+
                 <main>
                     <div className="header-image header-image--page">
                         <img
@@ -21,7 +21,7 @@ const About = () => {
                         <div className="page-title">
                             <div className="container-fluid-large">
                                 <h1>
-                                    About A&K Consulting
+                                    About A&K Consulting and Advisory
                                 </h1>
                                 <p>
                                     <span
@@ -44,7 +44,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div id="interior">
+                    {/* <div id="interior">
                         <div className="container-fluid">
                             <div className="hasNoLeftOrRightCols interior-content clearfix">
                                 <div className="post-meta-detail no-byline">
@@ -76,19 +76,19 @@ const About = () => {
                                             aria-level="2"
                                             className="intro-text"
                                         >
-                                            Unlock the power of your most trusted partner.
+                                            Transform your business with expert advisory and consultancy.
                                         </p>
                                         <p>
-                                            We strive to be a partner to businesses big and small, providing the professional prowess you need to chart your path forward. It’s all part of our mission: To deliver an unmatched experience you won’t get anywhere else.
+                                            We aim to be the trusted advisor for organizations of all sizes, offering the strategic insight and operational expertise you need to navigate complex challenges and drive growth. Our mission is to provide unparalleled service and guidance tailored to your unique needs.
                                         </p>
-                                        <p>
-                                            Founded as a virtual company in 1999, we’re an international management consulting firm with more than 1,400 experts in digital, technology and business consulting who are here to help solve your toughest problems.
-                                        </p>
+
                                     </div>
+
+
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <section
                         className="pageblock pageblock--video one_column_block bg_color bg_color--white  "
                         id="pageblock_50875"
@@ -107,15 +107,15 @@ const About = () => {
                                         }}
                                     >
                                         <a id="Centric-Origin-Video" />
-                                        As we mark a major milestone, founding CEO Dave Rosevelt and current CEO Larry English sit down to talk about A&K Consulting’s origin story. Even 25 years later, we continue to uphold                            our mission of creating unmatched experiences for employees, clients and communities.
+                                        As we celebrate a significant milestone, CEO and founder Abhishekh Pandey, alongside co-founder Krishita Koli, reflect on the inspiring journey that led to the creation of A&K Consulting in August 2024. The company provides advisory and consultancy services across various sectors and operates globally, helping businesses thrive and grow.
                                     </p>
                                 </div>
-                               
+
                             </div>
                         </div>
                     </section>
-                    
-                    <section
+
+                    {/* <section
                         className="pageblock pageblock--video one_column_block bg_color bg_color--purple  "
                         id="pageblock_52027"
                     >
@@ -143,7 +143,7 @@ const About = () => {
                                         An international management consulting firm, we bring expertise in AI strategy, cyber risk management, cloud solutions and more. The firm combines the benefits of experience, flexibility and cost efficiency to create tailored solutions                            centered on what’s best for your business.
                                     </p>
                                 </div>
-                                {/* <div className="row">
+                                <div className="row">
                                     <div className="pageblock__column col-xs-12 col-sm-10 col-sm-offset-1 video">
                                         <div
                                             className="embed-responsive embed-responsive-16by9 video-iframe-wrapper"
@@ -161,10 +161,11 @@ const About = () => {
                                             />
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
                     </section>
+                     */}
                     <section
                         className="pageblock pageblock--new-stat-bar"
                         id="pageblock_35556"
@@ -185,22 +186,20 @@ const About = () => {
                                     </div>
                                     <div className="item__text">
                                         <span className="item__title">
-                                            <span className="prefix" />
-                                            <span
-                                                className="single-number"
-                                                data-count="1"
-                                            >
-                                                0
-                                            </span>
-                                            <span className="suffix">
-                                                {' '}of 4
-                                            </span>
+                                            {/* <span className="prefix" />
+                                            <span className="single-number" data-count="0">
+    0
+</span>
+<span className="suffix">
+    {' '}of 4
+</span> */}
                                         </span>
                                         <span className="item__description">
-                                            clients are Fortune{' '}
+                                            clients are currently onboarded
                                             <br />
-                                            500 companies
+                                            as we are a newly launched company
                                         </span>
+
                                     </div>
                                 </div>
                                 <div className="grid__item">
@@ -214,22 +213,14 @@ const About = () => {
                                     </div>
                                     <div className="item__text">
                                         <span className="item__title">
-                                            <span className="prefix" />
-                                            <span
-                                                className="single-number"
-                                                data-count="97"
-                                            >
-                                                0
-                                            </span>
-                                            <span className="suffix">
-                                                %
-                                            </span>
+
                                         </span>
                                         <span className="item__description">
-                                            of clients agree we're{' '}
+                                            Client feedback coming soon
                                             <br />
-                                            open, honest and timely
+                                            as we continue to grow and build strong partnerships
                                         </span>
+
                                     </div>
                                 </div>
                                 <div className="grid__item">
@@ -243,7 +234,7 @@ const About = () => {
                                     </div>
                                     <div className="item__text">
                                         <span className="item__title">
-                                            <span className="prefix" />
+                                            {/* <span className="prefix" />
                                             <span
                                                 className="single-number"
                                                 data-count="98"
@@ -252,11 +243,14 @@ const About = () => {
                                             </span>
                                             <span className="suffix">
                                                 %
-                                            </span>
+                                            </span> */}
                                         </span>
                                         <span className="item__description">
-                                            overall satisfaction rate noted in client survey
+                                            Client satisfaction surveys will be launched soon
+                                            <br />
+                                            as we look forward to delivering excellence
                                         </span>
+
                                     </div>
                                 </div>
                                 <div className="grid__item">
@@ -270,7 +264,7 @@ const About = () => {
                                     </div>
                                     <div className="item__text">
                                         <span className="item__title">
-                                            <span className="prefix" />
+                                            {/* <span className="prefix" />
                                             <span
                                                 className="single-number"
                                                 data-count="9"
@@ -279,19 +273,20 @@ const About = () => {
                                             </span>
                                             <span className="suffix">
                                                 {' '}in 10
-                                            </span>
+                                            </span> */}
                                         </span>
                                         <span className="item__description">
-                                            clients choose us{' '}
+                                            Clients are excited to return
                                             <br />
-                                            for a second project
+                                            for future collaborations
                                         </span>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section
+                    {/* <section
                         className="pageblock pageblock--text-text-text three_column_block bg_color bg_color--white  "
                         id="pageblock_33769"
                     >
@@ -371,7 +366,8 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
+
                     <section
                         className="pageblock pageblock--image-text right "
                         id="pageblock_33770"
@@ -392,11 +388,12 @@ const About = () => {
                                 <div className="flex-container">
                                     <div className="content purple">
                                         <h2>
-                                            We Bring Domain & Industry Expertise
+                                            Abhishekh Pandey: CEO, Entrepreneur, and Visionary Leader
                                         </h2>
                                         <p>
-                                            You get solutions designed for you by our industry, business consulting and technology experts. ​We enhance the quality and speed of our work with our modern delivery practices, accelerators and tools.
+                                            Under the leadership of Abhishekh Pandey, an accomplished CEO and entrepreneur, we deliver solutions tailored for you by our team of industry, business consulting, and technology experts. With modern delivery practices, accelerators, and tools, we ensure the highest quality and efficiency in everything we do.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -415,8 +412,9 @@ const About = () => {
                                 </header>
                                 <div className="pageblock__subheader">
                                     <p>
-                                        Passionate and purposeful, our consultants bring deep and diverse skillsets with a desire to dig in and do the work, no matter what — measuring success by results, not promises.
+                                        Driven by passion and purpose, our consultants offer a wide range of skills and a commitment to delivering tangible results. We focus on executing solutions with precision and measuring our success by the impact we create, not just by promises.
                                     </p>
+
                                     <p
                                         style={{
                                             textAlign: 'center'
@@ -455,8 +453,9 @@ const About = () => {
                                                 textAlign: 'center'
                                             }}
                                         >
-                                            We assemble teams from across the country and India to provide the right solutions.
+                                            Our teams are carefully assembled from across the country and India, ensuring we deliver the most effective solutions tailored to your needs.
                                         </p>
+
                                     </div>
                                     <div className="pageblock__column col-xs-12 col-sm-4 text">
                                         <h3>
@@ -482,8 +481,9 @@ const About = () => {
                                                 textAlign: 'center'
                                             }}
                                         >
-                                            We actively seek talented individuals with diverse skills, backgrounds and perspectives.
+                                            We bring together experts from across the nation and India to craft customized solutions that perfectly address your unique challenges.
                                         </p>
+
                                     </div>
                                     <div className="pageblock__column col-xs-12 col-sm-4 text">
                                         <h3>
@@ -509,8 +509,9 @@ const About = () => {
                                                 textAlign: 'center'
                                             }}
                                         >
-                                            We’re thought leaders who bring vast knowledge and insights to everything we do.
+                                            As thought leaders, we infuse our work with extensive knowledge and valuable insights to drive innovative solutions.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -536,11 +537,12 @@ const About = () => {
                                 <div className="flex-container">
                                     <div className="content purple">
                                         <h2>
-                                            We Bring Deep Commitment & Experience
+                                            Krishita Koli: Co-Founder
                                         </h2>
                                         <p>
-                                            You get a single point-of-contact – a trusted advisor averaging 15 years of experience – who knows your market. We also bring a deeply experienced team that can include resources from across the globe.
+                                            Led by Krishita Koli, our co-founder and strategist, you receive dedicated support from a trusted advisor with deep market knowledge. With a global team and extensive experience, we bring a wealth of expertise to address your unique challenges.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -554,82 +556,53 @@ const About = () => {
                             <div className="container-fluid">
                                 <header className="pageblock__header">
                                     <h2>
-                                        Our Mindset
+                                        Where can you find us?
                                     </h2>
                                 </header>
                                 <div className="pageblock__subheader">
                                     <p>
-                                        Your business is our business, meaning we’re not just hired hands — we’re dedicated and experienced extensions of your team who care for your business as if it were our own.
+                                        If you're interested in working with us, we invite you to visit our office and explore how our dedicated team can integrate deeply with your operations to achieve your goals together.
                                     </p>
-                                    <p
-                                        style={{
-                                            textAlign: 'center'
-                                        }}
-                                    >
-                                        <a
-                                            className="button"
-                                            href="#/about-us/our-mindset/"
-                                        >
-                                            LEARN MORE
-                                        </a>
+                                    <p>
+                                        Address: Worli, 1st Floor, 264-265, Dr. Annie Besant Rd, Worli, Mumbai, MH 400051
                                     </p>
+
+
                                 </div>
                                 <div className="row">
-                                    <div className="pageblock__column col-xs-12 col-sm-4 text">
+                                    <div className="pageblock__column col-xs-12 col-sm-12 text">
                                         <h3
                                             style={{
                                                 textAlign: 'center'
                                             }}
                                         >
-                                            What We Stand For
+                                            Get in Touch
                                         </h3>
                                         <p
                                             style={{
                                                 textAlign: 'center'
                                             }}
                                         >
-                                            We are committed to getting you where you need to go and we’ll be with you every step of the way.
+                                            We are here to assist you with any questions or inquiries. Feel free to reach out to us via email at:
                                         </p>
-                                    </div>
-                                    <div className="pageblock__column col-xs-12 col-sm-4 text">
-                                        <h3
-                                            style={{
-                                                textAlign: 'center'
-                                            }}
-                                        >
-                                            What We Value
-                                        </h3>
                                         <p
                                             style={{
                                                 textAlign: 'center'
                                             }}
                                         >
-                                            We believe success comes from working together to do good work and serve those around us.
-                                        </p>
-                                    </div>
-                                    <div className="pageblock__column col-xs-12 col-sm-4 text">
-                                        <h3
-                                            style={{
-                                                textAlign: 'center'
-                                            }}
-                                        >
-                                            Why We’re Here
-                                        </h3>
-                                        <p
-                                            style={{
-                                                textAlign: 'center'
-                                            }}
-                                        >
-                                            We’re deeply committed to everything we do and it shows in the events we host, causes we support and awards we win.
+                                            <a href="mailto:info@yourcompany.com">
+                                                info@yourcompany.com
+                                            </a>
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </section>
-                    
 
-                    
+
+
                     <section
                         className="pageblock pageblock--text one_column_block bg_image bg_image_darker  "
                         id="pageblock_33609"
@@ -646,20 +619,9 @@ const About = () => {
                                                 textAlign: 'center'
                                             }}
                                         >
-                                            We have the experience, knowledge and flexibility to be your partner. Ready to work together?
+                                            With our expertise, we're ready to be your strategic partner. Let's embark on this journey together!
                                         </h2>
-                                        <p
-                                            style={{
-                                                textAlign: 'center'
-                                            }}
-                                        >
-                                            <a
-                                                className="button"
-                                                href="#/contact/"
-                                            >
-                                                TALK to AN EXPERT
-                                            </a>
-                                        </p>
+                                        {/*  */}
                                     </div>
                                 </div>
                             </div>

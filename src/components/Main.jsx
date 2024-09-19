@@ -2,8 +2,8 @@ import React from 'react'
 
 const Main = () => {
   return (
-   <>
-    <main>
+    <>
+      <main>
         <div className="header-image header-image--page">
           <img
             alt=""
@@ -18,7 +18,7 @@ const Main = () => {
           <div className="page-title">
             <div className="container-fluid-large">
               <h1>
-                Business Consulting Services
+                A&K Consulting and Advisory
               </h1>
               <p>
                 <span
@@ -26,7 +26,7 @@ const Main = () => {
                     fontWeight: '400'
                   }}
                 >
-                  Together we can envision, inspire and transform your                            business.
+                  Collaborate, Innovate, and Elevate Your Business to New Heights.
                 </span>
               </p>
               <a
@@ -73,7 +73,7 @@ const Main = () => {
                         fontWeight: '400'
                       }}
                     >
-                      From evolving customer expectations                                    and emerging technologies to more nimble companies entering industries, businesses                                    today are more at risk for disruption than ever before.{' '}
+                      With shifting customer demands, advancing technologies, and agile competitors reshaping industries, businesses today face unprecedented risks of disruption.
                     </span>
                   </p>
                   <p>
@@ -82,11 +82,11 @@ const Main = () => {
                         fontWeight: '400'
                       }}
                     >
-                      Whether you’re experiencing challenges with company                                    culture, internal processes or need a new business strategy to reflect your                                    envisioned future, we’re here to help.
+                      Whether you’re facing issues with organizational culture, operational workflows, or require a refreshed strategy to align with your future vision, we’re here to support you.
                     </span>
                   </p>
                   <p>
-                    <span
+                    {/* <span
                       style={{
                         fontWeight: '400'
                       }}
@@ -98,17 +98,17 @@ const Main = () => {
                         fontWeight: '400'
                       }}
                     >
-                      consultants
-                    </span>
+                      consultants are
+                    </span> */}
                     <span
                       style={{
                         fontWeight: '400'
                       }}
                     >
-                      {' '}can                                    help you adapt to today’s market dynamics and continue to compete no matter the                                    threats you might be facing. Tools to enable optimal remote work can help minimize                                    or prevent disruption in your operations.
+                      Our business{' '}    consultants are   equipped to help you navigate today’s evolving market conditions and maintain competitiveness despite the challenges ahead. With solutions to enhance remote work efficiency, we help you minimize operational disruptions and safeguard productivity.
                     </span>
                   </p>
-                  <p>
+                  {/* <p>
                     <span
                       style={{
                         fontWeight: '400'
@@ -125,6 +125,15 @@ const Main = () => {
                     >
                       We place a heavy focus on enabling and sustaining change,                                    as well as establishing platforms for continuous improvement. To do so, we                                    seamlessly integrate our business consulting, technology and industry practices to                                    help companies thrive.
                     </span>
+                  </p> */}
+                  <p>
+                    <span
+                      style={{
+                        fontWeight: '400'
+                      }}
+                    >
+                      We emphasize empowering sustainable change and building frameworks for continuous progress. By seamlessly combining our business advisory, technological expertise, and industry knowledge, we help organizations succeed in a fast-evolving environment.
+                    </span>
                   </p>
                   <p>
                     <span
@@ -132,7 +141,7 @@ const Main = () => {
                         fontWeight: '400'
                       }}
                     >
-                      Not sure what you need? Contact us to learn how to keep                                    pace in an ever-changing digital world.{' '}
+                      Unsure of what steps to take? Reach out to discover how to stay ahead in today’s rapidly shifting digital landscape.
                     </span>
                   </p>
                 </div>
@@ -192,14 +201,14 @@ const Main = () => {
                     textAlign: 'center'
                   }}
                 >
-                  Navigating Business Challenges – Together
+                  Solving Business Challenges – In Partnership.
                 </h2>
                 <p
                   style={{
                     textAlign: 'center'
                   }}
                 >
-                  Successfully navigating business challenges means diving deep                            into your market to gain clarity on issues and opportunities. Then, you can establish a                            compelling and inspiring vision, develop world-class capabilities, build a culture                            of agility, and deliver value in a rapid, agile fashion.
+                  Successfully overcoming business challenges requires a thorough understanding of your market to uncover key insights and opportunities. From there, you can craft a clear and motivating vision, enhance your capabilities, foster a culture of adaptability, and drive value swiftly with an agile approach.
                 </p>
                 <p
                   style={{
@@ -409,7 +418,7 @@ const Main = () => {
             <div className="content-tabs__wrapper">
               <div className="tabs__left">
                 <h2>
-                  Our Business Consulting Services
+                  Our Business Consulting Services and Advisory
                 </h2>
                 <ul
                   className="tab-list"
@@ -421,7 +430,7 @@ const Main = () => {
                       className="tab-link active"
                       role="button"
                     >
-                      Strategy Alignment & Architecture{' '}
+                      Business Process Optimization
                     </h3>
                     <div className="tab__content--mobile" />
                   </li>
@@ -431,7 +440,7 @@ const Main = () => {
                       className="tab-link "
                       role="button"
                     >
-                      Enterprise Portfolio & Program Management{' '}
+                      Data Analytics & Insights
                     </h3>
                     <div className="tab__content--mobile" />
                   </li>
@@ -441,7 +450,7 @@ const Main = () => {
                       className="tab-link "
                       role="button"
                     >
-                      Experience Design{' '}
+                      Risk Management & Compliance
                     </h3>
                     <div className="tab__content--mobile" />
                   </li>
@@ -451,7 +460,7 @@ const Main = () => {
                       className="tab-link "
                       role="button"
                     >
-                      Human Capital Management – Workforce Management{' '}
+                      Financial Planning & Analysis
                     </h3>
                     <div className="tab__content--mobile" />
                   </li>
@@ -461,7 +470,7 @@ const Main = () => {
                       className="tab-link "
                       role="button"
                     >
-                      Operational Excellence{' '}
+                      Sustainability & Corporate Responsibility
                     </h3>
                     <div className="tab__content--mobile" />
                   </li>
@@ -471,7 +480,8 @@ const Main = () => {
                       className="tab-link "
                       role="button"
                     >
-                      People & Change{' '}
+                      Operational Excellence{' '}
+
                     </h3>
                     <div className="tab__content--mobile" />
                   </li>
@@ -487,10 +497,11 @@ const Main = () => {
                 >
                   <div className="content__inner">
                     <p>
-                      To guide your company toward its envisioned future, you need a road map.
+                      To lead your organization towards success, a clear strategy is essential.
                     </p>
                     <p>
-                      We’ll help you understand your business and customer insights while developing a                                    compelling vision, strategy and overall blueprint for driving competitive advantage.
+                      We’ll assist you in analyzing your market and customer data, while creating a compelling vision,
+                      strategic plan, and a comprehensive blueprint to boost your competitive edge.
                     </p>
                   </div>
                   <a
@@ -511,10 +522,11 @@ const Main = () => {
                 >
                   <div className="content__inner">
                     <p>
-                      How do you align program execution to strategy and accelerate value realization?
+                      Unlocking the power of data is key to informed decision-making and business growth.
                     </p>
                     <p>
-                      From portfolio management to project delivery, we’ll work with you to deliver                                    strategies and initiatives in an agile, rapid and value-driven manner.
+                      We’ll help you harness data analytics to uncover valuable insights, enabling you to make strategic decisions,
+                      optimize performance, and identify new opportunities for driving competitive advantage.
                     </p>
                   </div>
                   <a
@@ -535,7 +547,11 @@ const Main = () => {
                 >
                   <div className="content__inner">
                     <p>
-                      We help clients understand, ideate and execute modern interactions across channels                                    and functional areas to drive growth, increase productivity and create a culture                                    where people, specifically their needs, are at the forefront                                    of decisioning.
+                      Safeguarding your business from potential threats requires robust risk management and compliance strategies.
+                    </p>
+                    <p>
+                      We’ll assist you in identifying, assessing, and mitigating risks while ensuring adherence to regulatory requirements,
+                      helping you maintain operational integrity and protect your organization's reputation.
                     </p>
                   </div>
                   <a
@@ -556,10 +572,11 @@ const Main = () => {
                 >
                   <div className="content__inner">
                     <p>
-                      We successfully implement, optimize and support HCM solutions.
+                      Effective financial planning and analysis are crucial for sustainable growth and strategic decision-making.
                     </p>
                     <p>
-                      Whether you are moving to the Cloud or interested in a first-time implementation, we                                    work with you to determine the right path forward for your enterprise.
+                      We’ll work with you to develop detailed financial forecasts, analyze performance metrics, and create actionable insights,
+                      enabling you to make informed decisions and achieve long-term financial stability.
                     </p>
                   </div>
                   <a
@@ -580,10 +597,11 @@ const Main = () => {
                 >
                   <div className="content__inner">
                     <p>
-                      Your company’s business architecture helps your organization deliver the right                                    capabilities at the right time.
+                      Embracing sustainability and corporate responsibility is essential for long-term success and positive impact.
                     </p>
                     <p>
-                      Together, we’ll dive into your business operations across people, processes,                                    technology and metrics to ensure you can create truly sustainable results.
+                      We’ll guide you in developing and implementing strategies that promote environmental stewardship, social responsibility,
+                      and ethical practices, helping you build a strong, responsible brand while contributing to a better future.
                     </p>
                   </div>
                   <a
@@ -604,7 +622,10 @@ const Main = () => {
                 >
                   <div className="content__inner">
                     <p>
-                      Whether your company is undergoing a significant transformation or you need to                                    strengthen your culture, we’ll help your leaders equip and empower your people                                    organization and culture to thrive.
+                      Achieving operational excellence involves optimizing processes to enhance efficiency and effectiveness across your organization.
+                    </p>
+                    <p>
+                      We’ll help you streamline operations, implement best practices, and drive continuous improvement, ensuring that you deliver superior value, reduce costs, and maintain a competitive edge.
                     </p>
                   </div>
                   <a
@@ -627,7 +648,7 @@ const Main = () => {
             <div className="flex-wrap">
               <div className="content">
                 <p className="intro-text">
-                  Our Business Consulting Services address a company’s end-to-end business                            needs. We provide comprehensive services to support your business to drive people, process                            and technology considerations.
+                  Our Business Consulting Services cater to all aspects of your company's needs. We offer a full spectrum of solutions designed to enhance your business by integrating people, processes, and technology considerations.
                 </p>
               </div>
               <div className="buttons">
@@ -856,7 +877,7 @@ const Main = () => {
             height="750"
             loading="lazy"
             sizes="(max-width: 1680px) 100vw, 1680px"
-            src="https://centricconsulting.com/wp-content/uploads/2022/11/Website_Featured_UiPath_030120236-1680x750.jpg"
+            src="/images/hero.webp"
             srcSet=""
             title="website_featured_uipath_030120236-2"
             width="1680"
@@ -866,27 +887,29 @@ const Main = () => {
               <div className="flex-container">
                 <div className="content purple">
                   <p>
-                    <strong>
+                    {/* <strong>
                       ON-DEMAND WEBINAR
                       <br />
-                    </strong>
+                    </strong> */}
                   </p>
                   <h3>
-                    RPA as a Service: Is Easy Button Automation Right for You?
+                    By 2025, the daily data generated globally will surge to unimaginable levels.
                   </h3>
                   <p>
-                    Are you having a hard time getting leadership to buy in to your Robotic Process                                Automation program? Don’t let fears about required infrastructure and resources                                stop you from reaping the benefits of RPA.
+                    With data growth on the horizon, is your organization ready to innovate? As data complexity increases, are your solutions agile enough? The future is data-rich—does your strategy match? The data deluge is coming. Are you equipped to handle it?
                   </p>
+                  {/* <p>
+  With data growth on the horizon, is your organization ready to innovate? As data complexity increases, are your solutions agile enough? The future is data-rich—does your strategy match? In our on-demand webinar, our consultants offer insights into how businesses can overcome barriers to growth, streamline processes, and leverage data-driven decision-making to drive success. The data deluge is coming—are you equipped to handle it? Let us guide you through the intricacies of modern business transformation with custom solutions designed to meet your unique needs.
+</p> */}
+
                   <p>
-                    In our on-demand webinar, our strategists highlight how RPA as a service requires fewer                                upfront resources and allows greater flexibility in scale and pricing.
-                  </p>
-                  <p>
-                    <a
+
+                    {/* <a
                       className="button"
                       href="#/NAT-FY23-03-WBNR-RPAasaService_01LandingPage-OnDemand.html"
                     >
                       WATCH                                    THE WEBINAR
-                    </a>
+                    </a> */}
                   </p>
                 </div>
               </div>
@@ -1188,7 +1211,7 @@ const Main = () => {
             </div>
           </div>
         </section> */}
-        <section
+        {/* <section
           className="pageblock pageblock--cta one_column_block bg_color bg_color--  pageblock--extra-padding pageblock--cta"
           id="pageblock_8322"
         >
@@ -1196,11 +1219,12 @@ const Main = () => {
             <div className="flex-wrap">
               <div className="content">
                 <h2>
-                  Business does not happen in a vacuum.
+                  Business thrives in an ever-changing environment.
                 </h2>
                 <p>
-                  Technology and digital innovations are spurring business transformation, and growing requires                            adapting to new products and services — or creating your own. It is our job to provide the                            experience and expertise to help you create                            solutions and adapt to new services.
+                  Rapid advancements in technology and digital innovations are driving the future of business. Growth demands not just adapting to these changes, but also the ability to innovate and build custom solutions. Our role is to provide the insights and expertise you need to navigate this evolving landscape and create strategies that fuel long-term success.
                 </p>
+
               </div>
               <div className="buttons">
                 <a
@@ -1212,7 +1236,8 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
         <section
           className="pageblock pageblock--text one_column_block bg_image bg_image_darker  "
           id="pageblock_8368"
@@ -1224,20 +1249,20 @@ const Main = () => {
             <div className="container-fluid">
               <div className="row">
                 <div className="pageblock__column col-xs-12 col-sm-10 col-sm-offset-1 text">
-                  <div className="head-shot">
+                  {/* <div className="head-shot">
                     <div className="head-shot--wrap">
                       <img
                         loading="lazy"
                         src="https://centricconsulting.com/wp-content/uploads/2018/07/Greg-Klem-300x300.jpg"
                       />
                     </div>
-                  </div>
+                  </div> */}
                   <h2
                     style={{
                       textAlign: 'center'
                     }}
                   >
-                    Together we can envision, inspire and transform your                                business and develop world-class capabilities and culture.
+                    Empowering your vision, igniting innovation, and driving transformation.
                   </h2>
                   <p
                     style={{
@@ -1257,7 +1282,7 @@ const Main = () => {
           </div>
         </section>
       </main>
-   </>
+    </>
   )
 }
 
