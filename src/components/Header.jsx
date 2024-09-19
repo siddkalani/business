@@ -10,39 +10,6 @@ const Header = () => {
                 role="banner"
             >
                 <NavBar/>
-                <div
-                    aria-expanded="false"
-                    className="collapse"
-                    id="searchform"
-                >
-                    <form
-                        action="#/"
-                        className="searchform form-inline"
-                        method="get"
-                        role="search"
-                    >
-                        <div className="form-group">
-                            <div className="container-fluid">
-                                <label>
-                                    <span className="sr-only">
-                                        Search for:
-                                    </span>
-                                    <input
-                                        className="form-control default"
-                                        defaultValue=""
-                                        id="s"
-                                        name="s"
-                                        placeholder="Search Site"
-                                        type="text"
-                                    />
-                                </label>
-                                <span className="input-group-btn">
-                                   
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
             </header>
         </>
     )

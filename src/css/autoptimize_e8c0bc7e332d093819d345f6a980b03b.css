@@ -15822,7 +15822,7 @@ input[type=image].button:after,
 button:after,
 .woocommerce a.button:after,
 .woocommerce a.button.alt:after {
-    content: "";
+    content: ">";
     font-family: "FontAwesome", sans-serif;
     font-size: 1em;
     display: block;

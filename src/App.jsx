@@ -12,15 +12,10 @@ function App() {
     <div>
       <ScrollTop />
       <Header />
-<<<<<<< HEAD
-      <Main />
-      <Footer />
-=======
       <Outlet />
         <Footer />
         {/* </ScrollTop> */}
       {/* <About /> */}
->>>>>>> refs/remotes/origin/main
     </div>
   );
 }
