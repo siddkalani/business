@@ -14,7 +14,7 @@ const Main = () => {
     <main>
         <div className="header-image header-image--page">
           <img
-            alt="Centric Consulting Persistent Storage with AWS Fargate"
+            alt=""
             className="header_image"
             decoding="async"
             height="415"
@@ -778,7 +778,7 @@ const Main = () => {
                   <p>
                     <a
                       className="button"
-                      href="https://go.centricconsulting.com/NAT-FY23-03-WBNR-RPAasaService_01LandingPage-OnDemand.html"
+                      href="#/NAT-FY23-03-WBNR-RPAasaService_01LandingPage-OnDemand.html"
                     >
                       WATCH                                    THE WEBINAR
                     </a>

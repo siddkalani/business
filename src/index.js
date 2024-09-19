@@ -1,14 +1,56 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import './css/autoptimize_e8c0bc7e332d093819d345f6a980b03b.css'
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "./css/autoptimize_e8c0bc7e332d093819d345f6a980b03b.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Header from "./components/Header";
+import About from "./components/AboutUs/About";
+import Main from "./components/Main";
+import Contacts from "./components/Contacts/Contacts";
+import Industries from './components/Industries/Industries'
+import Insights from './components/Insights/Insights'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        index: true,
+        element: <Main />
+      },
+      // {
+      //   path: '/main',
+      //   element: <Main/>
+      // },
+     
+    //   {
+    //   path: '/contact',
+    //   element: <Contacts/>
+      // },
+      {
+        path: '/services',
+        element: <Insights/>
+      },
+      {
+      path: '/industries',
+      element: <Industries/>
+    },
+    {
+      path: '/about',
+      element: <About/>
+    },
+    ],
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+     <RouterProvider router={router} />
   </React.StrictMode>
 );
 
