@@ -7953,7 +7953,9 @@ body.single-landing-page form .mktoButtonRow .mktoButtonWrap .mktoButton:hover:a
 }
 
 .post-section .sticky-posts .post-image--wrapper img {
-    width: 100%
+    width: 100%;
+    height: 16rem;
+    
 }
 
 .post-section .sticky-posts .content-wrap:after {
@@ -8046,7 +8048,7 @@ body.single-landing-page form .mktoButtonRow .mktoButtonWrap .mktoButton:hover:a
 @media all and (min-width:768px) {
     .post-wrapper .post-single .post-wrap,
     .resource-post-wrapper .facetwp-template .post-single .post-wrap {
-        padding: 45px 20px 25%;
+        /* padding: 45px 20px 25%; */
         min-height: 400px
     }
 }
@@ -8054,7 +8056,8 @@ body.single-landing-page form .mktoButtonRow .mktoButtonWrap .mktoButton:hover:a
 @media all and (min-width:992px) {
     .post-wrapper .post-single .post-wrap,
     .resource-post-wrapper .facetwp-template .post-single .post-wrap {
-        padding: 45px 45px 25%;
+        /* padding: 45px 45px 25%; */
+        padding: 2rem;
         min-height: 370px
     }
 }
@@ -8115,7 +8118,8 @@ body.single-landing-page form .mktoButtonRow .mktoButtonWrap .mktoButton:hover:a
 
 .post-wrapper .post-single .post-wrap .post-image--wrapper>img,
 .resource-post-wrapper .facetwp-template .post-single .post-wrap .post-image--wrapper>img {
-    width: 100%
+    width: 100%;
+    height: 16rem;
 }
 
 .post-wrapper .post-single.mouse-in .post-wrap h3,
@@ -9472,7 +9476,8 @@ body.single-landing-page form .mktoButtonRow .mktoButtonWrap .mktoButton:hover:a
         flex: 1 0 50%;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center
+        align-items: center;
+        /* flex-direction:column */
     }
     .sticky-posts.grid-posts .featured-posts__column--four .featured-single:last-child a .post-image--wrapper {
         width: 50%;
@@ -16065,7 +16070,7 @@ a.button-text {
 }
 
 a.button-text:after {
-    content: " ";
+    content: " >";
     font-family: "FontAwesome", sans-serif;
     display: inline;
     position: relative;
@@ -16164,4 +16169,134 @@ section.pageblock.noPadPageBlock {
 .cardLink.pageblock__column:hover h5 {
     color: #23527c !important;
     text-decoration: underline
+}
+
+/* Base styles for the navbar */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    position: relative;
+}
+
+/* Styling for the navigation list */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list .menu-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Hamburger menu button for mobile */
+.menu-button {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Mobile menu container (initially hidden) */
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+/* Show mobile menu when it's open */
+.mobile-menu.open {
+    display: block;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    /* Show hamburger menu button, hide desktop nav */
+    .menu-button {
+        display: block;
+        position: fixed;
+        top: 0.5rem;
+        right: 1rem;
+    }
+
+    /* Hide desktop menu on mobile */
+    .desktop-menu {
+        display: none;
+    }
+
+    /* Mobile navigation styling */
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 2rem;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+        transform: translateY(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    /* Show the mobile menu when open */
+    .mobile-menu.open {
+        transform: translateY(0);
+    }
+
+    /* Mobile menu list styling */
+    .mobile-menu .nav-list {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .mobile-menu .nav-link {
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    /* Close button styling */
+    .close-button {
+        position: absolute;
+        top: 0.5rem;
+        right: 1rem;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: #333;
+        cursor: pointer;
+    }
+
+    .close-button:hover {
+        color: #ff0000;
+    }
+}
+
+.custom-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

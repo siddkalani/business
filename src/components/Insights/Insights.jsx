@@ -1,5 +1,5 @@
 import React from 'react'
-
+import business from './Businessman.mp4'
 const Insights = () => {
     return (
         <>
@@ -84,10 +84,11 @@ const Insights = () => {
                                                 <div
                                                     className="post-wrap--image"
                                                     style={{
-                                                        backgroundImage: 'url(/images/services/servicess.jpg )'
+                                                        backgroundImage: 'url(/images/potrait.jpg)'
                                                         // backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2024/08/AI_Web_Social_Website_Featured_Image-835x835.jpg )'
                                                     }}
                                                 />
+                                          
                                                 <div className="content-wrap">
                                                     <div className="post-meta-landing">
                                                         A&K Services
@@ -164,7 +165,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/risk.webp'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="content-wrap">
@@ -356,7 +357,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/economic.png'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -383,7 +384,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/transaction.avif'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/08/AI_Web_Social_Website_Featured_Image-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/08/AI_Web_Social_Website_Featured_Image-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -410,7 +411,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/finance.jpeg'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Delivery-Excellence-Leadership-Role-Featured-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Delivery-Excellence-Leadership-Role-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -437,7 +438,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/globalAsset.webp'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/centric-consulting-what-is-salesforce-data-cloud-featured-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/centric-consulting-what-is-salesforce-data-cloud-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -464,7 +465,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='images/services/forensis.jpg'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-SECURA-Data-Modernization-Featured-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-SECURA-Data-Modernization-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -481,7 +482,7 @@ const Insights = () => {
                                             </a>
                                         </div>
                                     </div>
-                                  
+
                                     <div
                                         className="post-single"
                                         id="post-53564"
@@ -492,7 +493,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/recontruct.jpeg'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Agile-Working-featured-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Agile-Working-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -519,7 +520,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/risks.jpeg'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-data-driven-business-strategy-and-what-is-a-CDO-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-data-driven-business-strategy-and-what-is-a-CDO-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -546,7 +547,7 @@ const Insights = () => {
                                                     <img
                                                         loading="lazy"
                                                         src='/images/services/tax.avif'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Microsoft-Dynamics-365-Implementation-Featured-835x415.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Microsoft-Dynamics-365-Implementation-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -572,8 +573,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src='/images/services/travel2.jpg'
-                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-AI-for-employee-satisfaction-featured-835x415.jpg"
+                                                        src=''
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-AI-for-employee-satisfaction-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -646,11 +647,7 @@ const Insights = () => {
                                     </div> */}
                                 </div>
                             </div>
-                            <div className="facetwp-pagination pagination">
-                                <div className="container-fluid-large">
-                                    <div className="facetwp-pager" />
-                                </div>
-                            </div>
+
                         </div>
                     </section>
                 </main>
