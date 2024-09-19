@@ -84,7 +84,8 @@ const Insights = () => {
                                                 <div
                                                     className="post-wrap--image"
                                                     style={{
-                                                        backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2024/08/AI_Web_Social_Website_Featured_Image-835x835.jpg )'
+                                                        backgroundImage: 'url(/images/services/servicess.jpg )'
+                                                        // backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2024/08/AI_Web_Social_Website_Featured_Image-835x835.jpg )'
                                                     }}
                                                 />
                                                 <div className="content-wrap">
@@ -110,7 +111,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-SECURA-Data-Modernization-Featured-835x415.jpg"
+                                                        src='/images/services/public.jpg'
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-SECURA-Data-Modernization-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="content-wrap">
@@ -135,7 +137,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Delivery-Excellence-Leadership-Role-Featured-835x415.jpg"
+                                                        src="/images/services/banking2.jpg"
+                                                    // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Delivery-Excellence-Leadership-Role-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="content-wrap">
@@ -160,7 +163,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
+                                                        src='/images/services/risk.webp'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="content-wrap">
@@ -351,7 +355,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
+                                                        src='/images/services/economic.png'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-strengthening-IAM-security-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -377,7 +382,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/08/AI_Web_Social_Website_Featured_Image-835x415.jpg"
+                                                        src='/images/services/transaction.avif'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/08/AI_Web_Social_Website_Featured_Image-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -403,11 +409,12 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Delivery-Excellence-Leadership-Role-Featured-835x415.jpg"
+                                                        src='/images/services/finance.jpeg'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Delivery-Excellence-Leadership-Role-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
-                                                    Financial accounting advisory services (FAAS)
+                                                    Financial accounting advisory services
                                                 </div>
                                                 <div className="post-content">
                                                     <h3 className="post-title">
@@ -429,7 +436,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/centric-consulting-what-is-salesforce-data-cloud-featured-835x415.jpg"
+                                                        src='/images/services/globalAsset.webp'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/centric-consulting-what-is-salesforce-data-cloud-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -455,7 +463,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-SECURA-Data-Modernization-Featured-835x415.jpg"
+                                                        src='images/services/forensis.jpg'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-SECURA-Data-Modernization-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -472,32 +481,7 @@ const Insights = () => {
                                             </a>
                                         </div>
                                     </div>
-                                    <div
-                                        className="post-single"
-                                        id="post-53578"
-                                    >
-                                        <div className="post-wrap">
-                                            <a href="#/blog/9-key-project-management-organization-trends-you-need-to-know/">
-                                                <div className="post-image--wrapper">
-                                                    <img
-                                                        loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Project-Management-Organization-Trends-Featured-835x415.jpg"
-                                                    />
-                                                </div>
-                                                <div className="post-meta-landing">
-                                                    Transformation consulting
-                                                </div>
-                                                <div className="post-content">
-                                                    <h3 className="post-title">
-                                                        Is business transformation a priority for your organisation? Our expert insight and guidance can help you achieve it.
-                                                    </h3>
-                                                    {/* <div className="excerpt">
-                                                        We helped property and casualty insurance company SECURA modernize its data and safely retire legacy systems.{' '}
-                                                    </div> */}
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
+                                  
                                     <div
                                         className="post-single"
                                         id="post-53564"
@@ -507,7 +491,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Agile-Working-featured-835x415.jpg"
+                                                        src='/images/services/recontruct.jpeg'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Agile-Working-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -533,7 +518,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-data-driven-business-strategy-and-what-is-a-CDO-835x415.jpg"
+                                                        src='/images/services/risks.jpeg'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-data-driven-business-strategy-and-what-is-a-CDO-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -559,7 +545,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Microsoft-Dynamics-365-Implementation-Featured-835x415.jpg"
+                                                        src='/images/services/tax.avif'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-Microsoft-Dynamics-365-Implementation-Featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
@@ -585,7 +572,8 @@ const Insights = () => {
                                                 <div className="post-image--wrapper">
                                                     <img
                                                         loading="lazy"
-                                                        src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-AI-for-employee-satisfaction-featured-835x415.jpg"
+                                                        src='/images/services/travel2.jpg'
+                                                        // src="https://centricconsulting.com/wp-content/uploads/2024/09/Centric-Consulting-AI-for-employee-satisfaction-featured-835x415.jpg"
                                                     />
                                                 </div>
                                                 <div className="post-meta-landing">
