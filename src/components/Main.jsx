@@ -1,6 +1,14 @@
 import React from 'react'
 
 const Main = () => {
+  const content = [
+    `From evolving customer expectations and emerging technologies to more nimble companies entering industries, businesses today are more at risk for disruption than ever before.`,
+    `Whether you’re experiencing challenges with company culture, internal processes or need a new business strategy to reflect your envisioned future, we’re here to help.`,
+    `Our business consultants can help you adapt to today’s market dynamics and continue to compete no matter the threats you might be facing. Tools to enable optimal remote work can help minimize or prevent disruption in your operations.`,
+    `We can scale our services to support change efforts ranging from tactical improvements through large-scale transformation efforts. Our business consultants are experienced leaders and practitioners who are customer-focused, delivery-excellence driven, and can navigate and manage complex projects, working effectively across diverse business and technology organizations.`,
+    `We place a heavy focus on enabling and sustaining change, as well as establishing platforms for continuous improvement. To do so, we seamlessly integrate our business consulting, technology and industry practices to help companies thrive.`,
+    `Not sure what you need? Contact us to learn how to keep pace in an ever-changing digital world.`
+  ];
   return (
     <>
       <main>
@@ -40,6 +48,7 @@ const Main = () => {
           </div>
         </div>
         <div id="interior">
+<<<<<<< HEAD
           <div className="container-fluid">
             <div className="hasRightCol interior-content clearfix">
               <div className="post-meta-detail no-byline">
@@ -186,9 +195,35 @@ const Main = () => {
                   </div>
                 </div>
               </aside> */}
+=======
+      <div className="container-fluid">
+        <div className="hasRightCol interior-content clearfix">
+          <div className="post-meta-detail no-byline">
+            <div className="post-meta-detail__backlink">
+              <span>
+                <span>
+                  <a href="#">Home</a>
+                </span>
+                »
+                <span aria-current="page" className="breadcrumb_last">
+                  <strong>Business Consulting</strong>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div className="main-content" id="content">
+            <div className="entry facetwp-template">
+              {content.map((paragraph, index) => (
+                <p key={index}>
+                  <span style={{ fontWeight: '400' }}>{paragraph}</span>
+                </p>
+              ))}
+>>>>>>> refs/remotes/origin/main
             </div>
           </div>
         </div>
+      </div>
+    </div>
         <section
           className="pageblock pageblock--text-text-text-text-text-text-text seven_column_block bg_color bg_color--white  "
           id="pageblock_26944"
