@@ -15,8 +15,8 @@ const Industries = () => {
                             decoding="async"
                             height="415"
                             sizes="(max-width: 1680px) 100vw, 1680px"
-                            src="https://centricconsulting.com/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-1680x415.png"
-                            srcSet="https://centricconsulting.com/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries.png 1680w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-300x74.png 300w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-1024x253.png 1024w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-768x190.png 768w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-1536x379.png 1536w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-600x148.png 600w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-992x245.png 992w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-1200x296.png 1200w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-850x210.png 850w, #/wp-content/uploads/2020/07/BA_WebsiteImages_InteriorPage_Industries-750x185.png 750w"
+                            src='/industries/hero.avif'
+
                             width="1680"
                         />
                         <div className="page-title">
@@ -101,24 +101,24 @@ const Industries = () => {
                                 <div className="row">
                                     <div className="pageblock__column col-xs-12 col-sm-4 text">
                                         <p>
-                                            <a href="#/industries/insurance/">
-                                                <img
-                                                    alt="insurance consulting"
-                                                    className="alignnone wp-image-17155 size-medium"
-                                                    decoding="async"
-                                                    height="200"
-                                                    loading="lazy"
-                                                    sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/insurance-column3-300x200.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/insurance-column3-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/insurance-column3-600x400.jpg 600w, #/wp-content/uploads/2018/07/insurance-column3.jpg 750w"
-                                                    width="300"
-                                                />
-                                            </a>
+
+                                            <img
+                                                alt="insurance consulting"
+                                                className="alignnone wp-image-17155 size-medium"
+                                                decoding="async"
+                                                height="200"
+                                                loading="lazy"
+                                                sizes="(max-width: 300px) 100vw, 300px"
+                                                // src="https://centricconsulting.com/wp-content/uploads/2018/07/insurance-column3-300x200.jpg"
+                                                src='/images/services/banking2.jpg'
+                                                width="300"
+                                            />
+
                                         </p>
                                         <h6>
-                                            <a href="#/industries/insurance/">
-                                                Insurance
-                                            </a>
+
+                                            Banking
+
                                         </h6>
                                         <p>
                                             We help insurers drive operational efficiency, improve customer service and increase profitability.
@@ -134,15 +134,14 @@ const Industries = () => {
                                                     height="200"
                                                     loading="lazy"
                                                     sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/FS-3columnblock-300x200.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/FS-3columnblock-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/FS-3columnblock-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/FS-3columnblock.jpg 750w"
+                                                    src='/images/services/finance.jpeg'
                                                     width="300"
                                                 />
                                             </a>
                                         </p>
                                         <h6>
                                             <a href="#/industries/financial-services/">
-                                                Financial Services
+                                                Finance
                                             </a>
                                         </h6>
                                         <p>
@@ -159,8 +158,7 @@ const Industries = () => {
                                                     height="200"
                                                     loading="lazy"
                                                     sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/healthcare-3colum-300x200.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/healthcare-3colum-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/healthcare-3colum-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/healthcare-3colum.jpg 750w"
+                                                    src='/images/services/medico.jpg'
                                                     width="300"
                                                 />
                                             </a>
@@ -184,8 +182,7 @@ const Industries = () => {
                                                     height="199"
                                                     loading="lazy"
                                                     sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/eu-3columbblock-300x199.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/eu-3columbblock-300x199.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/eu-3columbblock-600x399.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/eu-3columbblock-750x499.jpg 750w, #/wp-content/uploads/2018/07/eu-3columbblock.jpg 752w"
+                                                    src='/images/services/energy.jpg'
                                                     width="300"
                                                 />
                                             </a>
@@ -209,8 +206,7 @@ const Industries = () => {
                                                     height="200"
                                                     loading="lazy"
                                                     sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    src='/industries/public.jpg'
                                                     width="300"
                                                 />
                                             </a>
@@ -234,8 +230,7 @@ const Industries = () => {
                                                     height="200"
                                                     loading="lazy"
                                                     sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    src='/images/services/com.jpg'
                                                     width="300"
                                                 />
                                             </a>
@@ -259,8 +254,7 @@ const Industries = () => {
                                                     height="200"
                                                     loading="lazy"
                                                     sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    src='/images/services/edu2.jpg'
                                                     width="300"
                                                 />
                                             </a>
@@ -284,8 +278,7 @@ const Industries = () => {
                                                     height="200"
                                                     loading="lazy"
                                                     sizes="(max-width: 300px) 100vw, 300px"
-                                                    src="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg"
-                                                    srcSet="https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-300x200.jpg 300w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column-600x400.jpg 600w, https://centricconsulting.com/wp-content/uploads/2018/07/Process-Excellence-column.jpg 750w"
+                                                    src='/images/services/real.jpg'
                                                     width="300"
                                                 />
                                             </a>
@@ -352,7 +345,7 @@ const Industries = () => {
                                         <div
                                             className="post-wrap--image"
                                             style={{
-                                                backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2018/07/Special-Care-Providers-Web-FB-835x627.jpg)'
+                                                backgroundImage: 'url( /industries/image1.jpg)'
                                             }}
                                         />
 
@@ -374,7 +367,7 @@ const Industries = () => {
                                         <div
                                             className="post-wrap--image"
                                             style={{
-                                                backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2020/02/Teams-for-Healthcare-Featured-835x835.jpg)'
+                                                 backgroundImage: 'url( /industries/image2.jpg)'
                                             }}
                                         />
 
@@ -396,7 +389,7 @@ const Industries = () => {
                                         <div
                                             className="post-wrap--image"
                                             style={{
-                                                backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2020/03/Microsoft-Teams-for-Government-Twitter.jpg)'
+                                                backgroundImage: 'url( /industries/image3.jpg)'
                                             }}
                                         />
 
@@ -418,7 +411,7 @@ const Industries = () => {
                                         <div
                                             className="post-wrap--image"
                                             style={{
-                                                backgroundImage: 'url( https://centricconsulting.com/wp-content/uploads/2019/12/DPL-Client-Story-Featured-835x415.jpg)'
+                                                 backgroundImage: 'url( /industries/image4.jpg)'
                                             }}
                                         />
                                         <div className="post-meta-landing">
@@ -495,7 +488,7 @@ const Industries = () => {
                         className="pageblock pageblock--text one_column_block bg_image  "
                         id="pageblock_8779"
                         style={{
-                            backgroundImage: 'url(https://centricconsulting.com/wp-content/uploads/2018/07/Additional-industries-services-pb.jpg)'
+                             backgroundImage: 'url( /industries/footer.jpeg)'
                         }}
                     >
                         <div className="pageblock__inner ">
